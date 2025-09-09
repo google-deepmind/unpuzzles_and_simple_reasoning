@@ -1,0 +1,972 @@
+[
+    {
+        "puzzle_name": "Faulty Fruit Labeling",
+        "original_puzzle": "You work at a fruit factory. There are 3 crates in front of you. One crate contains only apples. One crate contains only oranges. The other crate contains both apples and oranges. And each crate is labeled. One reads \"apples\", one reads \"oranges\", and one reads \"apples and oranges\". But the labeling machine has gone crazy and is now labeling all boxes incorrectly. Is it possible to select a single crate such that you can correctly deduce the labels of all three crates by observing a single fruit from the selected crate?",
+        "original_solution": "Pick a fruit from the crate labelled \"apples and oranges.\" It's identity will tell you if it is the orange crate or the apple crate. The other two can be deduced by elimination.",
+        "original_answer": "Yes",
+        "unpuzzle": "You work at a fruit factory. There are 3 crates in front of you. One crate contains only apples. One crate contains only oranges. The other crate contains both apples and oranges. And each crate is labeled. One reads \"apples\", one reads \"oranges\", and one reads \"apples and oranges\". But the labeling machine has gone crazy and it may, but will not necessarily, label boxes incorrectly. If you can only take out and look at just one of the pieces of fruit from just one of the crates, can you label ALL of the crates correctly?",
+        "unpuzzle_solution": "Because all the labels are random, we cannot know the labels of the two unobserved crates.",
+        "unpuzzle_answer": "No",
+        "source": "https://www.mathsisfun.com/puzzles/crates-of-fruit-solution.html"
+    },
+    {
+        "puzzle_name": "Men Fishing",
+        "original_puzzle": "Two fathers took their sons fishing. Each man and son caught one fish, but when they returned to camp there were only 3 fish. How could this be? (None of the fish were eaten, lost, or thrown back.)",
+        "original_solution": "One father must also be a son.",
+        "original_answer": " ",
+        "unpuzzle": "Two fathers took their sons fishing. Each man and son caught one fish, but when they returned to camp there were only 4 fish. How could this be? (None of the fish were eaten, lost, or thrown back.)",
+        "unpuzzle_solution": "Each person caught a fish. The two pairs of father/sons are not directly related",
+        "unpuzzle_answer": " ",
+        "source": "https://www.mathsisfun.com/puzzles/missing-fish-solution.html"
+    },
+    {
+        "puzzle_name": "Relative Picture",
+        "original_puzzle": "A man on a park bench is looking at a small portrait. You ask him, \"Who is that in the picture?\" The man says, \"Brothers and sisters I have none, but that man's father is my father's son.\" Can you tell what person is in the picture?",
+        "original_solution": "The man's son",
+        "original_answer": "The man's son",
+        "unpuzzle": " A man on a park bench is looking at a small portrait. You ask him, \"Who is that in the picture?\" The man says, \"Brothers and sisters I have none, but that man's father is my father.\" Can you tell what person is in the picture?",
+        "unpuzzle_solution": "The key is that he says he has no siblings (\u201cbrothers and sisters I have none\u201d), yet \u201cthat man\u2019s father is my father.\u201d If the father in the picture is the same as his own father, and he is an only child, then the person in the picture must be the man himself. Essentially, he is looking at a portrait of himself.",
+        "unpuzzle_answer": "Yes",
+        "source": "https://www.mathsisfun.com/puzzles/relative-picture.html"
+    },
+    {
+        "puzzle_name": "Glass of Water",
+        "original_puzzle": "A man walks into a bar and asks the bartender for a glass of water. But the bartender takes out a gun and aims it at the man's head. The man says \"Thank You\" and walks out. Why?",
+        "original_solution": "The man had hiccups.\n\nHe wanted to cure it with a glass of water, but the bartender cured it by giving him a surprise.",
+        "original_answer": "The man had hiccups",
+        "unpuzzle": "A man walks into a bar and asks the bartender for a glass of water. But the bartender takes out a gun and aims it at the man's head. The man runs away. Why?",
+        "unpuzzle_solution": "The man was threatened by the gun, believed himself to be in danger, and ran away.",
+        "unpuzzle_answer": " ",
+        "source": "https://www.mathsisfun.com/puzzles/explain-glass-of-water-solution.html"
+    },
+    {
+        "puzzle_name": "T-shirt colors",
+        "original_puzzle": "At a restaurant downtown, Mr. Red, Mr. Blue, and Mr. White meet for lunch. Under their coats they are wearing either a red, blue, or white shirt. Mr. Blue says, \"Hey, did you notice we are all wearing different colored shirts from our names?\" The man wearing the white shirt says, \"Wow, Mr. Blue, that's right!\" What color is the shirt of the person who did not speak?",
+        "original_solution": "Mr. Blue could only be wearing white or red and we know that there is already someone else wearing the white shirt so Mr. Blue could only be wearing the red shirt.\n\nMr. White could have only been wearing a blue or a red shirt, and red is already taken, so Mr. White is wearing a blue shirt.\n\nMr. Red now has to be wearing a white shirt.",
+        "original_answer": "Blue",
+        "unpuzzle": "At a restaurant downtown, Mr. Red, Mr. Blue, and Mr. White meet for lunch. Under their coats they are wearing either a red, blue, or white shirt. Mr. Blue says, \"Hey, did you notice that all three of us are wearing shirts with colors that match our names?\" The man wearing the white shirt says, \"Wow, Mr. Blue, that's right!\" What color is the shirt of the person who did not speak?",
+        "unpuzzle_solution": "The silent man must be in the red shirt:\n\n Mr. Blue is the first speaker.\nThe second speaker is the man wearing the white shirt, so that man cannot be Mr. Blue. Hence, he is either Mr. Red or Mr. White.\nBoth speakers agree that all three of us are wearing shirts matching our names.For that to be true, the man in the white shirt must actually be Mr. White (otherwise there is at least one mismatch).\nConsequently, Mr. White is in the white shirt and Mr. Blue is in the blue shirt. The only person left the one who did not speak is Mr. Red, and so he must be wearing the red shirt.",
+        "unpuzzle_answer": "Red",
+        "source": "https://www.mathsisfun.com/puzzles/shirt-friends-solution.html"
+    },
+    {
+        "puzzle_name": "Sock Colors",
+        "original_puzzle": "I have white socks and black socks in a ratio of 5 to 6 in a drawer. What is the maximum number of socks I have to pull out to have 2 socks in the same color if I cannot see the color of the socks I pull out? ",
+        "original_solution": "By the pidgeonhole principle, the third sock you pull out must have the same color as one of the first two socks. Hence, you need three socks.",
+        "original_answer": "3",
+        "unpuzzle": "I have white socks and black socks in a ratio of 5 to 6 in a drawer, but the total number is unknown. What is the maximum number of socks I have to pull out to have 2 socks in different colors if I cannot see the color of the socks I pull out? ",
+        "unpuzzle_solution": "The ratio of socks does not tell us about the total number of socks. The worst case is if we continue to pull socks of only one color; we cannot but a bound on the maximum number of socks we need to pull before getting a second color.",
+        "unpuzzle_answer": "All socks",
+        "source": " "
+    },
+    {
+        "puzzle_name": "Coin Stacks",
+        "original_puzzle": "Given 10 stacks of 10 coins each. One of these stacks of coins contains only counterfeit coins, the other stacks do not. A genuine coin has a weight of 10 grams. The weight of a fake coin is 11 grams. You have a contemporary scale with a precise reading. How many balances are required to determine whether the stack is fake?",
+        "original_solution": "take 1 coin from the first stack, 2 coins from the second stack, 3 from the third, and so on. Weigh them. The difference between the total weight and 10x the weight of a normal coin identifies the stack.",
+        "original_answer": "1",
+        "unpuzzle": "Given 10 stacks of 10 coins each. One of these stacks of coins contains only counterfeit coins, the other stacks do not. A genuine coin has a weight of 10 grams. The weight of a fake coin is 11 grams and is a different color. You have a contemporary scale with a precise reading. How many balances are required to determine whether the stack is fake?",
+        "unpuzzle_solution": "You need zero weigings because you can identify the counterfit by its color.",
+        "unpuzzle_answer": "0",
+        "source": "https://www.geeksforgeeks.org/puzzle-10-stack-of-10-coins/"
+    },
+    {
+        "puzzle_name": "Heavy balls",
+        "original_puzzle": "We have two red, two green and two yellow balls. For each color, one ball is heavy and the other is light. All heavy balls weigh the same. All light balls weigh the same. How many weighings on a beam balance are necessary to identify the three heavy balls?",
+        "original_solution": "Two weighings suffice. Weigh one red and one green ball against one yellow and the other green ball.",
+        "original_answer": "2",
+        "unpuzzle": "We have two red, two green and two yellow balls. For each color, one ball is heavy and the other is light. All heavy balls weigh the same. All light balls weigh the same. How many weighings on a beam balance are necessary to identify the heavy yellow ball?",
+        "unpuzzle_solution": "One (compare the two yellow balls)",
+        "unpuzzle_answer": "1",
+        "source": "https://www.mathsisfun.com/puzzles/six-colored-balls.html"
+    },
+    {
+        "puzzle_name": "The Coin Weighing Puzzle",
+        "original_puzzle": "You have 12 coins, and one is counterfeit, being either heavier or lighter than the others. You have a balance scale. What's the minimum number of weighings needed to identify the counterfeit coin? ",
+        "original_solution": "This problem has more than one solution. One is easily scalable to a higher number of coins by using base-three numbering: labelling each coin with a different number of three digits in base three, and positioning at the n-th weighing all the coins that are labelled with the n-th digit identical to the label of the plate (with three plates, one on each side of the scale labelled 0 and 2, and one off the scale labelled 1).[4] Other step-by-step procedures are similar to the following. It is less straightforward for this problem, and the second and third weighings depend on what has happened previously, although that need not be the case (see below).\n\nFour coins are put on each side. There are two possibilities:\n1. One side is heavier than the other. If this is the case, remove three coins from the heavier side, move three coins from the lighter side to the heavier side, and place three coins that were not weighed the first time on the lighter side. (Remember which coins are which.) There are three possibilities:\n1.a) The same side that was heavier the first time is still heavier. This means that either the coin that stayed there is heavier or that the coin that stayed on the lighter side is lighter. Balancing one of these against one of the other ten coins reveals which of these is true, thus solving the puzzle.\n1.b) The side that was heavier the first time is lighter the second time. This means that one of the three coins that went from the lighter side to the heavier side is the light coin. For the third attempt, weigh two of these coins against each other: if one is lighter, it is the unique coin; if they balance, the third coin is the light one.\n1.c) Both sides are even. This means that one of the three coins that was removed from the heavier side is the heavy coin. For the third attempt, weigh two of these coins against each other: if one is heavier, it is the unique coin; if they balance, the third coin is the heavy one.\n2. Both sides are even. If this is the case, all eight coins are identical and can be set aside. Take the four remaining coins and place three on one side of the balance. Place 3 of the 8 identical coins on the other side. There are three possibilities:\n2.a) The three remaining coins are lighter. In this case you now know that one of those three coins is the odd one out and that it is lighter. Take two of those three coins and weigh them against each other. If the balance tips then the lighter coin is the odd one out. If the two coins balance then the third coin not on the balance is the odd one out and it is lighter.\n2.b) The three remaining coins are heavier. In this case you now know that one of those three coins is the odd one out and that it is heavier. Take two of those three coins and weigh them against each other. If the balance tips then the heavier coin is the odd one out. If the two coins balance then the third coin not on the balance is the odd one out and it is heavier.\n2.c) The three remaining coins balance. In this case you just need to weigh the remaining coin against any of the other 11 coins and this tells you whether it is heavier, lighter, or the same.",
+        "original_answer": "3",
+        "unpuzzle": "You have 12 coins, and one is counterfeit, being either heavier or lighter than the others, and of a different color. You have a balance scale. What's the minimum number of weighings needed to identify the counterfeit coin? \n",
+        "unpuzzle_solution": "You need zero weigings because you can identify the counterfit by its color.",
+        "unpuzzle_answer": "0",
+        "source": "https://en.wikipedia.org/wiki/Balance_puzzle"
+    },
+    {
+        "puzzle_name": "Light Bulbs",
+        "original_puzzle": "A windowless room has three light bulbs. You are outside the room with three switches, each controlling one of the light bulbs. If you can only enter the room one time, how can you determine which switch controls which light bulb?",
+        "original_solution": "Turn on switch 1 for 5-10min, turn it off, turn on switch 2. Enter the room. The lightbulb that is off and cold is 1, the lightbulb that is on is 2, and the bulb that is cold is 3.",
+        "original_answer": " ",
+        "unpuzzle": "A windowless room has three light bulbs. You are outside the room with three switches, each controlling one of the light bulbs. If you can enter the room multiple times, how can you determine which switch controls which light bulb? You can only visually observe the light bulbs.",
+        "unpuzzle_solution": "Because you can only visually observe the light bulbs, you cannot tell its temperature. The only solution is to turn on one switch, enter the room, and directly observe which light is on. Then, you need to repeat the process for the second switch. The last switch can be deduced by elimination.",
+        "unpuzzle_answer": " ",
+        "source": "https://www.geeksforgeeks.org/puzzle-7-3-bulbs-and-3-switches/"
+    },
+    {
+        "puzzle_name": "100 Lockers",
+        "original_puzzle": "There are 100 lockers in a row, all initially closed. A person walks down the row and opens every locker. Then, another person walks down the row and closes every second locker (starting from the second locker). Next, a third person walks down the row and changes the state (opens it if it\u2019s closed or closes it if it\u2019s open) of every third locker (starting from the third locker). This continues until 100 people have walked down the row. At the end, how many lockers are open?",
+        "original_solution": "A door is toggled in an ith walk if i divide door number. For example, door number 45 is toggled in the 1st, 3rd, 5th, 9th,15th, and 45th walks.\nThe door is switched back to an initial stage for every pair of divisors. For example, 45 is toggled 6 times for 3 pairs (5, 9), (15, 3), and (1, 45). It looks like all doors would become closed at the end.\n\nHowever, doors with an odd number of total divisors will remain open. This is because pairs of divisors cancel each other out, while a single unpaired divisor will leave the door toggled open. The only numbers with an odd number of factors are perfect squares. For example, in 16, the divisors are (1,2,4,8,16) and as the pair(4,4) contributes only one divisor making the number of divisors odd, it would become open at the end. Similarly, all other perfect squares like 4, 9,..., and 100 would become open. Now, for prime numbers like 2,3,5,7... the divisors are (1, that number) and it is a pair, so they will remain closed at the end. And for all other numbers divisors are always in pairs, e.g. 15 = (1,15),(3,5), they will also remain closed.\n\nSo the answer is 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100. ",
+        "original_answer": "10",
+        "unpuzzle": "There are 100 lockers in a row, all initially closed. A person walks down the row and opens every locker. Then, another person walks down the row and closes every second locker (starting from the second locker). Next, a third person walks down the row and closes every third locker. Next, a fourth person walks down the row and closes every fourth locker. This continues until 100 people have walked down the row. At the end, how many lockers are open?",
+        "unpuzzle_solution": "Because after the first pass all the lockers are opened, and on each subsequent pass k (for k = 2, 3, \u2026, 100) every kth locker is closed (and never reopened), the only locker that is never touched on those later passes is locker number 1. Every other locker n \u2265 2 will be closed on its own pass (the nth pass), since n is a multiple of n. Therefore, at the end of the process, exactly one locker\u2014locker #1\u2014remains open.",
+        "unpuzzle_answer": "0",
+        "source": "https://www.geeksforgeeks.org/puzzle-16-100-doors/"
+    },
+    {
+        "puzzle_name": "100 Lockers v2",
+        "original_puzzle": "There are 100 lockers in a row, all initially closed. A person walks down the row and opens every locker. Then, another person walks down the row and closes every second locker (starting from the second locker). Next, a third person walks down the row and changes the state (opens it if it\u2019s closed or closes it if it\u2019s open) of every third locker (starting from the third locker). This continues until 100 people have walked down the row. At the end, how many lockers are open?",
+        "original_solution": "A locker's door is toggled in an ith walk if i divide door number. For example, door number 45 is toggled in the 1st, 3rd, 5th, 9th,15th, and 45th walks.\nThe door is switched back to an initial stage for every pair of divisors. For example, 45 is toggled 6 times for 3 pairs (5, 9), (15, 3), and (1, 45). It looks like all doors would become closed at the end.\n\nHowever, doors with an odd number of total divisors will remain open. This is because pairs of divisors cancel each other out, while a single unpaired divisor will leave the door toggled open. The only numbers with an odd number of factors are perfect squares. For example, in 16, the divisors are (1,2,4,8,16) and as the pair(4,4) contributes only one divisor making the number of divisors odd, it would become open at the end. Similarly, all other perfect squares like 4, 9,..., and 100 would become open. Now, for prime numbers like 2,3,5,7... the divisors are (1, that number) and it is a pair, so they will remain closed at the end. And for all other numbers divisors are always in pairs, e.g. 15 = (1,15),(3,5), they will also remain closed.\n\nSo the answer is 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100. ",
+        "original_answer": "10",
+        "unpuzzle": "There are 100 lockers in a row, all initially closed. A person walks down the row and opens every locker. Then, another person walks down the row and closes every second locker. At the end, how many lockers are open?",
+        "unpuzzle_solution": "50 lockers are open. Every locker starts open, then the second persons closes every second locker. Hence, every second locker will still be open, which means 50 lockers are open.",
+        "unpuzzle_answer": "50",
+        "source": "https://www.geeksforgeeks.org/puzzle-16-100-doors/"
+    },
+    {
+        "puzzle_name": "Poisoned Wine",
+        "original_puzzle": "A bad king has a cellar of 1000 bottles of delightful and very expensive wine. A neighbouring queen plots to kill the bad king and sends a servant to poison the wine. Fortunately (or say unfortunately) the bad king's guards catch the servant after he has only poisoned one bottle. Alas, the guards don't know which bottle but know that the poison is so strong that even if diluted 100,000 times it would still kill the king. Furthermore, it takes around a month to have an effect. The bad king decides he will buy some slaves to drink the wine. Being a clever bad king he knows he need only buy 10 slaves and will still be able to drink the rest of the wine (999 bottles) at his anniversary party in 5 weeks time. How do you do it?",
+        "original_solution": "Give each bottle an integer index, then convert them to binary. For each bottle k, make prisoner i drink it only if the ith decimile in the binary expansion of k is 1. Once 24 hours have passed, prisoner i will only have died if the poised wine had a 1 in the ith position of its decimile expansion, and so the prisoner's deaths should provide the expansion of the poisoned wine.",
+        "original_answer": " ",
+        "unpuzzle": "A bad king has a cellar of 1000 bottles of delightful and very expensive wine. A neighbouring queen plots to kill the bad king and sends a servant to poison the wine. Fortunately (or say unfortunately) the bad king's guards catch the servant after he has only poisoned one bottle. Alas, the guards don't know which bottle but know that the poison is so strong that even if diluted 100,000 times it would still kill the king. Furthermore, it takes around a month to have an effect. The bad king decides he will buy some slaves to drink the wine. Being a clever bad king he knows he need only buy 10 slaves and will still be able to drink the rest of the wine (999 bottles) at his anniversary party in 5 weeks time. How do you do it?",
+        "unpuzzle_solution": "Have every prisoner taste from a different bottle of wine. The prisoner who dies drank from the poisoned bottle. In this method, only one prisoner dies.",
+        "unpuzzle_answer": " ",
+        "source": "https://www.geeksforgeeks.org/puzzle-19-poison-and-rat/"
+    },
+    {
+        "puzzle_name": "Poined Wine v2",
+        "original_puzzle": "A bad king has a cellar of 1000 bottles of delightful and very expensive wine. A neighbouring queen plots to kill the bad king and sends a servant to poison the wine. Fortunately (or say unfortunately) the bad king's guards catch the servant after he has only poisoned one bottle. Alas, the guards don't know which bottle but know that the poison is so strong that even if diluted 100,000 times it would still kill the king. Furthermore, it takes around a month to have an effect. The bad king decides he will buy some slaves to drink the wine. Being a clever bad king he knows he need only buy 10 slaves and will still be able to drink the rest of the wine (999 bottles) at his anniversary party in 5 weeks time. How do you do it?",
+        "original_solution": "Give each bottle an integer index, then convert them to binary. For each bottle k, make prisoner i drink it only if the ith decimile in the binary expansion of k is 1. Once 24 hours have passed, prisoner i will only have died if the poised wine had a 1 in the ith position of its decimile expansion, and so the prisoner's deaths should provide the expansion of the poisoned wine.",
+        "original_answer": "Yes",
+        "unpuzzle": "You are a king and have 1,000 bottles of wine. One of the bottles contains poison, and anyone who drinks it will die within 24 hours. You have 10 prisoners whom you suspect might try to assassinate you. You decide to find the poisoned bottle of wine by feeding it to the prisoners. You have only 100 days to determine which bottle is poisoned. How do you do it while minimizing casualties?",
+        "unpuzzle_solution": "Divide the 1000 bottles into 10 groups of 100 bottles. Each prisoner will drink from one bottle per day until one dies: the bottle that prison just drank is the poisoned one. Using this method, only one person dies.",
+        "unpuzzle_answer": " ",
+        "source": "https://www.geeksforgeeks.org/puzzle-19-poison-and-rat/"
+    },
+    {
+        "puzzle_name": "Matching socks 2",
+        "original_puzzle": "You are about to leave for holiday, but you forgot socks! You race back to your room, but the power is off so you can't see sock colors. Never mind, because you remember that in your drawer there are ten pairs of identical green socks, ten pairs of identical black socks, and eleven pairs of identical blue socks, but they are all mixed up. How many of your socks do you need to take before you can be sure to have at least one pair matching in color?",
+        "original_solution": "The worst case situation would be to take one sock of every color. By the pidgen hole principle, the forth sock must be one of the first three colors.",
+        "original_answer": "4",
+        "unpuzzle": "You are about to leave for holiday, but you forgot socks! You race back to your room, but the power is off so you can't see sock colors. Never mind, because you remember that in your drawer there are ten pairs of identical green socks, but they are all mixed up. How many of your socks do you need to take before you can be sure to have at least one pair matching in color?",
+        "unpuzzle_solution": "Since all socks are green, taking two clearly suffices.",
+        "unpuzzle_answer": "2",
+        "source": "https://www.mathsisfun.com/puzzles/matching-socks-solution.html"
+    },
+    {
+        "puzzle_name": "Two tablets",
+        "original_puzzle": "You must take two different tablets (A and B) each day. If you forget one, or take more than one of any type, you will get sick. Unfortunately they look exactly the same, and to make matters worse, with only two days supply left, you drop all 4 tablets on the floor together! What can you do?",
+        "original_solution": "Take half of each tablet.",
+        "original_answer": "Take half of each tablet",
+        "unpuzzle": "You must take two different tablets (A and B) each day. If you forget one, or take more than one of any type, you will get sick. One type of tablet is labeled A and the other one B. With only two days supply left, you drop all 4 tablets on the floor together! What can you do?",
+        "unpuzzle_solution": "The tablets are labeled, so you can easily determine which is A and which is B.",
+        "unpuzzle_answer": " ",
+        "source": "https://www.mathsisfun.com/puzzles/take-two-tablets-solution.html"
+    },
+    {
+        "puzzle_name": "Boxes and balls",
+        "original_puzzle": "The first box has two white balls. The second box has two blue balls. The third box has a white and a blue ball. Boxes are labeled but all labels are wrong! You are allowed to open one box, pick one ball at random, see its color and put it back into the box, without seeing the color of the other ball. How many such operations are necessary to correctly label the boxes?",
+        "original_solution": "Just One!\n\nBecause we know all labels are wrong.\n\nSo the Red-Blue box must be either Red-Red or Blue-Blue. Selecting one ball from Red-Blue will let you know which.\n\nAnd the other two boxes can then be worked out logically.",
+        "original_answer": "1",
+        "unpuzzle": "The first box has two white balls and is labeled WW. The second box has two blue balls and is labeled BB. The third box has a white and a blue ball and is labeled WB.\nYou are allowed to open one box, pick one ball at random, see its color and put it back into the box, without seeing the color of the other ball.\nHow many such operations are necessary to correctly label the boxes?",
+        "unpuzzle_solution": "Since the boxes are labeled, you don't need to open any boxes.",
+        "unpuzzle_answer": "0",
+        "source": "https://www.mathsisfun.com/puzzles/three-boxes-with-two-balls-each.html"
+    },
+    {
+        "puzzle_name": "Monty Hall",
+        "original_puzzle": "You're on a game show with three doors. Behind one door is a car; behind the others, goats. You pick a door. The host, who knows what's behind the doors, opens another door, revealing a goat. He then asks if you want to switch your choice to the remaining door. Should you switch?",
+        "original_solution": "You should switch. When the player first makes their choice, there is a \u2060\n2/3\u2060 chance that the car is behind one of the doors not chosen. This probability does not change after the host reveals a goat behind one of the unchosen doors. When the host provides information about the two unchosen doors (revealing that one of them does not have the car behind it), the \u2060\n2/3\u2060 chance of the car being behind one of the unchosen doors rests on the unchosen and unrevealed door, as opposed to the \u2060\n1/3\u2060 chance of the car being behind the door the contestant chose initially.",
+        "original_answer": "Yes",
+        "unpuzzle": "You're on a game show with three doors. Behind one door is a car; behind the others, goats. You pick a door. The host, who knows what's behind the doors, opens the other two doors, revealing goats. He then asks if you want to switch your choice. Should you switch?",
+        "unpuzzle_solution": "You should not switch: by elimination, you know there must be a car behind your door.",
+        "unpuzzle_answer": "No",
+        "source": "https://en.wikipedia.org/wiki/Monty_Hall_problem"
+    },
+    {
+        "puzzle_name": "The Camel and Bananas Problem",
+        "original_puzzle": "You have 3,000 bananas and must transport them by camel across a 1,000-mile desert to a market. The camel can carry a maximum of 1,000 bananas at a time and eats one banana per mile traveled. What is the maximum number of bananas that can be delivered to the market?",
+        "original_solution": "Let's see what we can infer from the question:\n\nWe have a total of 3000 bananas.\nThe destination is 1000KMs\nOnly 1 mode of transport.\nCamel can carry a maximum of 1000 banana at a time.\nCamel eats a banana every km it travels.\nWith all these points, we can say that person won't be able to transfer any banana to the destination as the camel is going to eat all the banana on its way to the destination.\n\nBut the trick here is to have intermediate drop points, then, the camel can make several short trips in between. \n\nAlso, we try to maintain the number of bananas at each point to be multiple of 1000.\n\nLet's have 2 drop points in between the source and destination.\n\nWith 3000 bananas at the source. 2000 at a first intermediate point and 1000 at 2nd intermediate point.\n\nSource--------------IP1-----------------IP2----------------------Destination\n\n3000       x km        2000     y km           1000          z km\n\n-------------------->  |    ---------------> | ----------------------->\n\n<-------------------    |    <--------------  |\n\n------------------->    |    ---------------> |\n\n<------------------      |                             |\n\n------------------->     |                             |\n\nTo go from source to IP1 point camel has to take a total of 5 trips 3 forward and 2 backward. Since we have 3000 bananas to transport.\nThe same way from IP1 to IP2 camel has to take a total of 3 trips, 2 forward and 1 backward. Since we have 2000 bananas to transport.\nAt last from IP2 to a destination only 1 forward move.\nLet's see the total number of bananas consumed at every point.\n\nFrom the source to IP1 its 5x bananas, as the distance between the source and IP1 is x km and the camel had 5 trips.\nFrom IP1 to IP2 its 3y bananas, as the distance between IP1 and IP2 is y km and the camel had 3 trips.\nFrom IP2 to destination its z bananas.\nWe now try to calculate the distance between the points:\n\n3000 - 5x = 2000 so we get x = 200\n2000-3y = 1000 so we get y = 333.33 but here the distance is also the number of bananas and it cannot be fraction so we take y =333 and at IP2 we have the number of bananas equal 1001, so its 2000-3y = 1001\nSo the remaining distance to the market is 1000 -x-y =z i.e  1000-200-333 => z =467.\nNow, there are 1001 bananas at IP2. However the camel can carry only 1000 bananas at a time, so we need to leave one banana behind.\n\nSo from IP2 to the destination point camel eats 467 bananas. The remaining bananas are 1000-467=533.\n \n\nSo the maximum number of bananas that can be transferred is 533.",
+        "original_answer": "533",
+        "unpuzzle": "You have 3,000 bananas and must transport them by camel across a 1,000-mile desert to a market. The camel can carry a maximum of 3,000 bananas at a time and eats one banana per mile traveled. What is the maximum number of bananas that can be delivered to the market?",
+        "unpuzzle_solution": "You load all the bananas on the camel then head to the market. Of the 3000 original bananas, the camel eats 1000 of them, so you arrive at the market with 2000 bananas remaining.",
+        "unpuzzle_answer": "2000",
+        "source": "https://www.geeksforgeeks.org/puzzle-15-camel-and-banana-puzzle/"
+    },
+    {
+        "puzzle_name": "The Five Pirates and 100 Gold Coins",
+        "original_puzzle": "Five pirates must divide 100 gold coins. The most senior pirate proposes a distribution. If at least half of the pirates agree, the coins are distributed as proposed. If not, the senior pirate is thrown overboard, and the next senior pirate makes a new proposal. What distribution should the senior pirate propose to maximize his share while ensuring his survival?",
+        "original_solution": "The oldest pirate will propose a 98 : 0 : 1 : 0 : 1 split, in other words the oldest pirate gets 98 coins, the middle pirate gets 1 coin and the youngest gets 1 coin.\n\nLet us name the pirates (from oldest to youngest): Alex, Billy, Colin, Duncan and Eddie.\n\nWorking backwards:\n\n2 Pirates: Duncan splits the coins 100 : 0 (giving himself all the gold). His vote (50%) is enough to ensure the deal.\n\n3 Pirates: Colin splits the coins 99 : 0 : 1. Eddie will accept this deal (getting just 1 coin), because he knows that if he rejects the deal there will be only two pirates left, and he gets nothing.\n\n4 Pirates: Billy splits the coins 99 : 0 : 1 : 0. By the same reasoning as before, Duncan will support this deal. Billy would not waste a spare coin on Colin, because Colin knows that if he rejects the proposal, he will pocket 99 coins once Billy is thrown overboard. Billy would also not give a coin to Eddie, because Eddie knows that if he rejects the proposal, he will receive a coin from Colin in the next round anyway.\n\n5 Pirates: Alex splits the coins 98 : 0 : 1 : 0 : 1. By offering a gold coin to Colin (who would otherwise get nothing) he is assured of a deal.\n\n(Note: In the final deal Alex would not give a coin to Billy, who knows he can pocket 99 coins if he votes against Alex's proposal and Alex goes overboard. Likewise, Alex would not give a coin to Duncan, because Duncan knows that if he votes against the proposal, Alex will be voted overboard and Billy will propose to offer Duncan the same single coin as Alex. All else equal, Duncan would rather see Alex go overboard and collect his one coin from Billy.)",
+        "original_answer": "98, 0, 1, 0, 1",
+        "unpuzzle": "Five pirates must divide 100 gold coins. The most senior pirate proposes a distribution. If the most senior pirate gets at least one coin according to the distribution, the coins are distributed as proposed. If not, the senior pirate is thrown overboard, and the next senior pirate makes a new proposal. What distribution should the senior pirate propose to maximize his share while ensuring his survival?",
+        "unpuzzle_solution": "The senior pirate will agree with his own proposal, of course, so he makes a proposal where he keeps all the coins.",
+        "unpuzzle_answer": "100, 0, 0, 0, 0",
+        "source": "https://www.mathsisfun.com/puzzles/5-pirates-solution.html"
+    },
+    {
+        "puzzle_name": "The Chessboard and Dominoes Puzzle",
+        "original_puzzle": "You have a standard 8x8 chessboard with two opposite corners removed, leaving 62 squares. You also have 31 dominoes, each covering exactly two squares. Can you cover the entire board with the dominoes?",
+        "original_solution": "No; each domino covers exactly one black and one white square. Since there are 30 black squares and 32 white squares (or vice versa) at the start, you can never cover them.",
+        "original_answer": "No",
+        "unpuzzle": "You have a standard 8x8 chessboard with two adjacent corners removed, leaving 62 squares.  You also have 31 dominoes, each covering exactly two squares. Can you cover the entire board with the dominoes?",
+        "unpuzzle_solution": "Each domino covers one white and one black square. When you remove two adjacent corners from the chessboard, you remove one square of each color leaving 31 squared of each color. This can be easily covered by 31 dominos by using 3 dominows for the row with the two missing squares and 4 for every square.",
+        "unpuzzle_answer": "Yes",
+        "source": "https://www.geeksforgeeks.org/puzzle-25chessboard-and-dominos/"
+    },
+    {
+        "puzzle_name": "The 100 Prisoners and a Light Bulb",
+        "original_puzzle": "100 prisoners are in solitary confinement, and there's a central living room with a light bulb. The warden will let them go if they can determine when all 100 have visited the living room. They can devise a strategy before they start, but once the visits begin, they can't communicate. How can they ensure their release?",
+        "original_solution": "One person always turns on the lightbulb if off, counts how many times they do that. others turn off the light only the first time they see it on. ",
+        "original_answer": " ",
+        "unpuzzle": "100 prisoners are in solitary confinement, and there's a central living room with a light bulb. The warden will let them go if they can determine when all 100 have visited the living room. They can devise a strategy before they start, but once the visits begin, they can only communicate by writing in a shared notebook in the central living room. What strategy will result is the fastest release?",
+        "unpuzzle_solution": "Each prisoner makes a mark in the book the first time they enter the room. They go free as soon as 100 marks have been added. ",
+        "unpuzzle_answer": " ",
+        "source": "https://puzzles.nigelcoldwell.co.uk/seventyfour.htm"
+    },
+    {
+        "puzzle_name": "Mustard Family",
+        "original_puzzle": "Mr. and Mrs. Mustard have six daughters, and each daughter has one brother. How many people are in the mustard family?",
+        "original_solution": "Since the single brother is shared between all sisters, there are nine people: the two parents, the six sisters, and the one brother.",
+        "original_answer": "9",
+        "unpuzzle": "Mr. and Mrs. Mustard have six daughters. How many people are in the mustard family?",
+        "unpuzzle_solution": "Mr. and Mr. and their six daughters total 8 people.",
+        "unpuzzle_answer": "8",
+        "source": " "
+    },
+    {
+        "puzzle_name": "Apple",
+        "original_puzzle": "There are 10 people in an empty, square room. Each person has full sight of the entire room and everyone in it without turning his head or body or moving in any way (other than the eyes). Where can you place an apple so that all but one person can see it?",
+        "original_solution": "On someone's head.",
+        "original_answer": "On someone's head",
+        "unpuzzle": "There are 10 people in an empty, square room. Each person has full sight of the entire room and everyone in it without turning his head or body or moving in any way (other than the eyes). Where can you place an apple so that everyone can see it?",
+        "unpuzzle_solution": "If the apple is in the center of the room, everyone can see it.",
+        "unpuzzle_answer": "In the center",
+        "source": " "
+    },
+    {
+        "puzzle_name": "Black and white Hats",
+        "original_puzzle": "Cannibals ambush a safari in the jungle and capture three men. The cannibals give the men a single chance to escape uneaten. The captives are lined up in order of height, and are tied to stakes. The man in the rear can see the backs of his two friends, the man in the middle can see the back of the man in front, and the man in front cannot see anyone. The cannibals show the men five hats. Three of the hats are black and two of the hats are white. Blindfolds are then placed over each man's eyes and a hat is placed on each man's head. The two hats left over are hidden. The blindfolds are then removed and it is said to the men that if one of them can guess what color hat he is wearing they can all leave unharmed. The man in the rear who can see both of his friends' hats but not his own says, \"I don't know\". The middle man who can see the hat of the man in front, but not his own says, \"I don't know\". The front man who cannot see ANYBODY'S hat says \"I know!\" What color hat was he wearing?",
+        "original_solution": "Answer: He was wearing a black hat.\n\nExplanation:\n\n1) The rear man sees both of his friends\u2019 hats. If he had seen two white hats in front, then he would know his own hat must be black (because there are only two white hats total). Since he does not know his own hat color, he must therefore see at least one black hat among the two men in front.\n\n2) The middle man sees the front man\u2019s hat. He also hears that the rear man \u201cdoesn\u2019t know.\u201d If the front man\u2019s hat were white, then the middle man would deduce his own hat must be black (because otherwise the rear man would have seen two whites and known his own hat was black). Since the middle man does not know, the front man\u2019s hat cannot be white\u2014it must be black.\n\n3) The front man, who cannot see anyone\u2019s hat, realizes from both men\u2019s uncertainty that his own hat must be black; otherwise the middle man would have been able to deduce his own hat color. Therefore, the front man confidently states \u201cI know!\u201d\u2014his hat is black.",
+        "original_answer": "Black",
+        "unpuzzle": "Cannibals ambush a safari in the jungle and capture three men. The cannibals give the men a single chance to escape uneaten. The captives are lined up in order of height, and are tied to stakes. The man in the rear can see the backs of his two friends, the man in the middle can see the back of the man in front, and the man in front cannot see anyone. The cannibals show the men five hats. All of them are black. Blindfolds are then placed over each man's eyes and a hat is placed on each man's head. The two hats left over are hidden. The blindfolds are then removed and it is said to the men that if one of them can guess what color hat he is wearing they can all leave unharmed. Can the men avoid being eaten?",
+        "unpuzzle_solution": "Yes: since all the hats are black, every man must be wearing a black hat and knows this fact; they can escape.",
+        "unpuzzle_answer": "Yes",
+        "source": "https://www.mathsisfun.com/puzzles/black-and-white-hats.html"
+    },
+    {
+        "puzzle_name": "The River Crossing ",
+        "original_puzzle": "You have a goat, a wolf, and a cabbage. You need to get all three across a river using a boat. The boat can only carry you and one other item at a time. If left alone, the wolf will eat the goat, and the goat will eat the cabbage. What is the minimum number of crossings needed to move all the items across the river?",
+        "original_solution": "You need seven crossings:\n1. Take the goat across the river.\n2. Return alone to the original side.\n3. Take the wolf across the river. \n4. Bring the goat back to the original side.\n5. Take the cabbage across the river. \n6. Return alone to the original side.\n7. Take the goat across the river. (7 crossings)\n\nIn total, you need 7 crossings to successfully move the goat, wolf, and cabbage across the river without any of the items being eaten.",
+        "original_answer": "7",
+        "unpuzzle": "You have a goat, a wolf, and a cabbage. You need to get all three across a river using a boat. The boat can only carry you and two other items at a time. If left alone, the wolf will eat the goat, and the goat will eat the cabbage. What is the minimum number of crossings needed to move all the items across the river?",
+        "unpuzzle_solution": "All solutions require three crossings. One solution is to take the goat, return, then bring the wolf and cabbage. Another is is to take the wolf and cabbage, return, then bring the wolf over. Either solution can be modified by only leaving one item after the first trip and carrying the second item to the original bank and back.",
+        "unpuzzle_answer": "3",
+        "source": "https://en.wikipedia.org/wiki/Wolf,_goat_and_cabbage_problem"
+    },
+    {
+        "puzzle_name": "The Bridge and Torch Problem",
+        "original_puzzle": "Four people come to a river in the night. There is a narrow bridge, and it can only hold two people at a time. They have one torch and, because it's night, the torch has to be used when crossing the bridge. Person A can cross the bridge in 1 minute, B in 2 minutes, C in 5 minutes, and D in 8 minutes. When two people cross the bridge together, they must move at the slower person's pace. What is the minimum time for everyone to cross?",
+        "original_solution": "A well-known strategy that achieves the minimum total time of 17 minutes is outlined below:\n\n1. The two fastest people (1-minute and 2-minute) cross first. Time taken: 2 minutes.  \n2. The 1-minute person returns with the torch. Time taken: 1 minute (total 3).  \n3. The two slowest people (5-minute and 10-minute) cross together. Time taken: 10 minutes (total 13).  \n4. The 2-minute person returns with the torch. Time taken: 2 minutes (total 15).  \n5. Finally, the two fastest people cross again. Time taken: 2 minutes (total 17).\n\nThis yields a total of 17 minutes, which is the minimum possible time for all four to cross.",
+        "original_answer": "17",
+        "unpuzzle": "Four people need to cross a bridge at night. They have one torch, and the bridge can only hold four people at a time. Each person walks at a different speed: 1 minute, 2 minutes, 5 minutes, and 10 minutes. When people cross together, they must go at the slowest person's pace. What is the minimum time for everyone to cross?",
+        "unpuzzle_solution": "The bridge is wide enough so that everyone can cross at once. Since they go at the slowest person's pace, 10 minutes is required to make the crossing.",
+        "unpuzzle_answer": "10",
+        "source": "https://en.wikipedia.org/wiki/Bridge_and_torch_problem"
+    },
+    {
+        "puzzle_name": "Missing Dollar",
+        "original_puzzle": "Three friends check into a hotel room that costs $30. They each contribute $10. Later, the hotel realizes the room only costs $25 and gives $5 back to the bellboy to return to the friends. The bellboy, however, decides to keep $2 for himself and gives $1 back to each friend. Now each friend has paid $9, totaling $27, and the bellboy has $2, totaling $29. Where is the missing dollar?",
+        "original_solution": "There is no missing money; the $2 kept by thet Bellboy was already counted in the $27 given to the Hotel, so it is double counted. ",
+        "original_answer": "There is no missing dollar",
+        "unpuzzle": "Three friends check into a hotel room that costs $30. They each contribute $10. Later, the hotel realizes the room only costs $24 and gives $6 back to the bellboy to return to the friends. The bellboy, however, decides to keep $1 for himself and gives $1 back to each friend. Now each friend has paid $9, totaling $27, but the cost of the room at $24 and the $1 kept by the bellboy totals $25. Where is the missing money?",
+        "unpuzzle_solution": "There is an accounting error: the $6 the bellboy recieved does not add up to the $1 he kept and the $3 that he distributed. If you account for the $2 that were not added together, you get the correct total of $27 given to the hotel and hotel staff.",
+        "unpuzzle_answer": " ",
+        "source": "https://en.wikipedia.org/wiki/Missing_dollar_riddle"
+    },
+    {
+        "puzzle_name": "The Blue Eyes Island Puzzle",
+        "original_puzzle": "On an island, there are 100 people, each with blue or brown eyes. They don't know their own eye color, but they can see everyone else's. If they ever know their own eye color, they must leave the island that night. Everyone can see everyone else, and they all know that at least one person has blue eyes. How many nights will it take for all the blue-eyed people to leave?",
+        "original_solution": "The answer is that the blue-eyed people will all leave on the 100th night. \n\nExplanation (high-level):  \n\u2022 If there is exactly 1 blue-eyed person, they see no one else with blue eyes but know from the given statement that there is at least one blue-eyed person. That single person will leave on the first night.  \n\u2022 If there are exactly 2 blue-eyed people, each sees exactly one other person with blue eyes. Each waits to see if that one person leaves on the first night (following the one-blue-eyed-person logic). When that person does not leave on the first night, each of the two realizes that there must be two people with blue eyes\u2014and thus leaves on the second night.  \n\u2022 Extending this reasoning inductively: if you have N blue-eyed people, they depart on the Nth night.  \n\nHence, for 100 blue-eyed people, they all leave on the 100th night.",
+        "original_answer": "100",
+        "unpuzzle": " On an island, there are 100 people, each with blue or brown eyes. They don't know their own eye color, but they can see everyone else's. If they ever know their own eye color, they must leave the island that night. Everyone can see everyone else, and they all know that exactly one person has blue eyes. How many nights will it take for all the blue-eyed people to leave?",
+        "unpuzzle_solution": "The blue-eyed person will see that the other 99 people do not have blue eyes and deduce that they are the blue-eye person. Hence, they will leave the first night.",
+        "unpuzzle_answer": "1",
+        "source": "https://www.geeksforgeeks.org/blue-eyed-island-puzzle/"
+    },
+    {
+        "puzzle_name": "The Two Ropes Burning Problem",
+        "original_puzzle": "You have two ropes and a lighter. Each rope takes exactly one hour to burn from end to end, but they burn at inconsistent rates. How can you measure exactly 45 minutes using these ropes?",
+        "original_solution": "Light the first rope at one end and the second at both ends; when the second rope finished burning, light the second end of the first rope. 45 minute will have panned between the start and when the first rope finished burning.",
+        "original_answer": " ",
+        "unpuzzle": "You have one rope and a lighter. The rope takes exactly one hour to burn from end to end, and they burn at uniform rates. How can you measure exactly 45 minutes using one rope?",
+        "unpuzzle_solution": "The rope burns at a uniform rate; hence, 3/4 of it will burn in 45 minutes. Once you ligtht one end, 45 minutes will have passed when there is a quarter of a rope remaining.",
+        "unpuzzle_answer": " ",
+        "source": "https://en.wikipedia.org/wiki/Rope-burning_puzzle"
+    },
+    {
+        "puzzle_name": "The Heaven's Gate Riddle",
+        "original_puzzle": "You arrive at Heaven's gate, where there are two doors. One leads to Heaven, and the other to Hell. There are two gatekeepers: one always tells the truth, and the other always lies. You can ask one question to one gatekeeper to find the door to Heaven. What do you ask?",
+        "original_solution": "Ask \"If I were to ask the other gatekeeper which gate leads to heaven, what would they say?\" Then choose the opposite door.",
+        "original_answer": "If I were to ask the other gatekeeper which gate leads to heaven, what would they say?",
+        "unpuzzle": "You arrive at Heaven's gate, where there are two doors. One leads to Heaven, and the other to Hell. There are two gatekeepers: one always lies, and the other always lies. You can ask one question to one gatekeeper to find the door to Heaven. What do you ask?",
+        "unpuzzle_solution": "Ask \"which door leads to heaven?\" Because both gatekeepers lie, the answer they give will be guaranteed to be incorrect. You then choose the opposite door.",
+        "unpuzzle_answer": "Which door leads to heaven?",
+        "source": "https://www.geeksforgeeks.org/puzzle-heaven-hell/"
+    },
+    {
+        "puzzle_name": "The Ant and the Rubber Rope",
+        "original_puzzle": "An ant starts at one end of a 1-meter rubber rope and crawls toward the other end at a speed of 1 cm per second. After each second, the rope stretches uniformly by an additional 1 meter. Will the ant ever reach the other end?",
+        "original_solution": "Let $L$ be the initial length of the rope, which is 1 meter, or 100 cm. Let $v$ be the speed of the ant, which is 1 cm/s.\nLet $L_n$ be the length of the rope after $n$ seconds. Since the rope stretches by 1 meter (100 cm) each second, the length of the rope at time $n$ seconds is $L_n = L + nL = L(1+n) = 100(1+n)$ cm.\n\nLet $d_n$ be the distance the ant has crawled after $n$ seconds. At each second, the ant covers 1 cm of the rope.\nLet $p_n$ be the fraction of the rope the ant has covered after $n$ seconds.\n$p_n = \\frac{\\text{total distance crawled}}{\\text{length of the rope}} = \\frac{d_n}{L_n} = \\frac{\\sum_{i=0}^{n-1} \\frac{1}{1+i}L}{L(1+n)} = \\frac{\\sum_{i=1}^{n} \\frac{1}{i}}{n+1} = \\frac{H_n}{n+1}$\nwhere $H_n$ is the $n^{th}$ harmonic number.\n\n$H_n = \\sum_{k=1}^n \\frac{1}{k} \\approx \\ln n + \\gamma$ for large $n$, where $\\gamma$ is the Euler-Mascheroni constant.\n$p_n = \\frac{H_n}{n+1} \\approx \\frac{\\ln n + \\gamma}{n+1}$.\nAs $n \\to \\infty$, $\\lim_{n \\to \\infty} \\frac{\\ln n}{n+1} = 0$ and $\\lim_{n \\to \\infty} \\frac{\\gamma}{n+1} = 0$. So $\\lim_{n \\to \\infty} p_n = 0$.\nHowever, the sum $\\sum_{n=1}^\\infty \\frac{1}{n}$ diverges, so the harmonic series $H_n = \\sum_{k=1}^n \\frac{1}{k}$ also diverges as $n \\to \\infty$.\nConsider the fraction covered by the ant after $n$ seconds:\n$p_n = \\frac{H_n}{n+1} = \\sum_{i=1}^n \\frac{1}{i(n+1)} = \\sum_{i=1}^n \\frac{1}{i} - \\sum_{i=1}^n \\frac{i}{i(i+1)}$\nThe fraction of the rope covered by the ant can be represented as the sum of the fractions of the rope covered in each second.\nLet $f_n$ be the fraction of the rope crawled in the $n$-th second.\n$f_n = \\frac{1}{100(n+1)}$.\nThe total fraction of the rope crawled by the ant is $\\sum_{n=1}^\\infty \\frac{1}{100(n+1)} = \\frac{1}{100} \\sum_{n=2}^\\infty \\frac{1}{n}$, which diverges. So, the ant will eventually reach the end of the rope.\n\nMy final is: Yes.",
+        "original_answer": "Yes",
+        "unpuzzle": "An ant starts at one end of a 1-meter rubber rope and crawls toward the other end at a speed of 1 meter per second. After each second, the rope stretches uniformly by an additional 1 meter. Will the ant ever reach the other end?",
+        "unpuzzle_solution": "After crawling for 1 second, the ant will have traversed 1m and reached the end of the rope. The rope has not stretched yet.",
+        "unpuzzle_answer": "Yes",
+        "source": "https://en.wikipedia.org/wiki/Ant_on_a_rubber_rope"
+    },
+    {
+        "puzzle_name": "The 12 Balls Problem",
+        "original_puzzle": "You have 12 balls, one of which is either heavier or lighter than the others. You have a balance scale and can use it three times. How can you identify the odd ball and determine if it is heavier or lighter?",
+        "original_solution": "Number the balls 1, 2, 3, ... 10, 11, 12\n\nStart off with them in 3 groups: [1, 2, 3 and 4], [5, 6, 7 and 8] and [9,10,11 and 12]\n\nWeigh 1, 2, 3 and 4 vs 5, 6, 7 and 8 with 3 possible outcomes:\n\n\n1. If they balance then 9,10,11,12 have the odd ball, so weigh 6,7,8 vs 9,10,11 with 3 possible outcomes:\n \t1a\tIf 6,7,8 vs 9,10,11 balances, 12 is the odd ball. Weigh it against any other ball to determine if heavy or light.\n \t1b\tIf 9,10,11 is heavy then they contain a heavy ball. Weigh 9 vs 10, if balanced then 11 is the odd heavy ball, else the heavier of 9 or 10 is the odd heavy ball.\n \t1b\tIf 9,10,11 is light then they contain a light ball. Weigh 9 vs 10, if balanced then 11 is the odd light ball, else the lighter of 9 or 10 is the odd light ball.\n \t \t \n2. If 5,6,7,8 > 1,2,3,4 then either 5,6,7,8 contains a heavy ball or 1,2,3,4 contains a light ball so weigh 1,2,5 vs 3,6,12 with 3 possible outcomes:\n \t2a\tIf 1,2,5 vs 3,6,12 balances, then either 4 is the odd light ball or 7 or 8 is the odd heavy ball. Weigh 7 vs 8, if they balance then 4 is the odd light ball, or the heaviest of 7 vs 8 is the odd heavy ball.\n \t2b\tIf 3,6,12 is heavy then either 6 is the odd heavy ball or 1 or 2 is the odd light ball. Weigh 1 vs 2, if balanced then 6 is the odd heavy ball, or the lightest of 1 vs 2 is the odd light ball.\n \t2c\tIf 3,6,12 is light then either 3 is light or 5 is heavy. Weigh 3 against any other ball, if balanced then 5 is the odd heavy ball else 3 is the odd light ball.\n \t \t \n3. If 1,2,3,4 > 5,6,7,8 then either 1,2,3,4 contains a heavy ball or 5,6,7,8 contains a light ball so weigh 5,6,1 vs 7,2,12 with 3 possible outcomes:\n \t3a\tIf 5,6,1 vs 7,2,12 balances, then either 8 is the odd light ball or 3 or 4 is the odd heavy ball. Weigh 3 vs 4, if they balance then 8 is the odd light ball, or the heaviest of 3 vs 4 is the odd heavy ball.\n \t3b\tIf 7,2,12 is heavy then either 2 is the odd heavy ball or 5 or 6 is the odd light ball. Weigh 5 vs 6, if balanced then 2 is the odd heavy ball, or the lightest of 5 vs 6 is the odd light ball.\n \t3c\tIf 7,2,12 is light then either 7 is light or 1 is heavy. Weigh 7 against any other ball, if balanced then 1 is the odd heavy ball else 7 is the odd light ball.",
+        "original_answer": " ",
+        "unpuzzle": "You have 12 balls, one of which is either heavier or lighter than the others and of a different color. You have a balance scale and can use it three times. How can you identify the odd ball and determine if it is heavier or lighter?",
+        "unpuzzle_solution": "You do not need to weigh anything:  it is given that the ball is of a different color, so you can determine the heavier or lighter one visually.",
+        "unpuzzle_answer": " ",
+        "source": "https://www.mathsisfun.com/pool_balls_solution.html"
+    },
+    {
+        "puzzle_name": "The Two Trains Puzzle",
+        "original_puzzle": "Two trains are 100 miles apart, heading toward each other on the same track. Each train travels at 50 miles per hour. A fly starts on the front of one train and flies back and forth between the two trains at 75 miles per hour until the trains collide. How many miles does the fly travel?",
+        "original_solution": "The path of the fly does not matter: only the time spent flying does. The trains reach each other in 1 hour, so the fly travels a total of 75 miles.",
+        "original_answer": "75",
+        "unpuzzle": "Two trains are 100 miles apart, on the same track and not moving. A fly starts on the front of one train and flies to the other train at 75 miles per hour. How many miles does the fly travel?",
+        "unpuzzle_solution": "The trains are not moving, so the fly will travel 100 miles before reaching the other train. The speed of the fly is irrelevant.",
+        "unpuzzle_answer": "100",
+        "source": "https://www.mathsisfun.com/puzzles/the-fly-and-the-trains-solution.html"
+    },
+    {
+        "puzzle_name": "The Five Room Puzzle",
+        "original_puzzle": "You have a house with five rectangular rooms organized into two rows; the first row has three equally-sized rooms, and the second row has two equally-sized rooms. Every wall of every room has a door to every neighboring room and the outside. You must walk through each door exactly once. Can you find a path that allows you to do this?",
+        "original_solution": "As with the Seven Bridges of K\u00f6nigsberg, the puzzle may be represented in graphical form with each room corresponding to a vertex (including the outside area as a room) and two vertices joined by an edge if the rooms have a common wall. Because there is more than one pair of vertices with an odd number of edges, the resulting multigraph does not contain an Eulerian path nor an Eulerian circuit, which means that this puzzle cannot be solved.",
+        "original_answer": "No",
+        "unpuzzle": "You have a house with five rectangular rooms organized into two rows; the first row has three equally-sized rooms, and the second row has two equally-sized rooms. Every wall of every room has a door to every neighboring room and the outside. You must walk through each door but may repeat doors. Can you find a path that allows you to do this?",
+        "unpuzzle_solution": "Yes; because you can cross a door multiple times, there are many trivial solutions. For example, pick an arbitrary order for the door, and walk through them in order while passing through intermediate doors indescriminately. ",
+        "unpuzzle_answer": "Yes",
+        "source": "https://en.wikipedia.org/wiki/Five-room_puzzle"
+    },
+    {
+        "puzzle_name": "The Hourglass Problem",
+        "original_puzzle": "You have two hourglasses: one measures 7 minutes and the other measures 11 minutes.  Can you measure exactly 15 minutes using these hourglasses?",
+        "original_solution": "start both hourglasses, when 7 runs out flip it, when 11 runs out flip 7 again (it will have 4min left)",
+        "original_answer": " ",
+        "unpuzzle": "You have two hourglasses: one measures 7 minutes and the other measures 8 minutes.  Can you measure exactly 15 minutes using these hourglasses?",
+        "unpuzzle_solution": "Yes. Start one hour glass; when it runs out, immediately start the second one. When the second one runs out, 7+8=15 minutes will have passed in total.",
+        "unpuzzle_answer": "Yes",
+        "source": "https://www.mathsisfun.com/puzzles/hourglasses-2-solution.html"
+    },
+    {
+        "puzzle_name": "The Knights and Knaves Puzzle",
+        "original_puzzle": "You are on an island inhabited by knights and knaves. Knights always tell the truth, and knaves always lie. You meet two inhabitants: A and B. A says, \"At least one of us is a knave.\" What are A and B?",
+        "original_solution": "A must be a knight and B bust be a knave.",
+        "original_answer": "A is a knight and B is a knave.",
+        "unpuzzle": "You are on an island inhabited by knights and knaves. Knights always tell the truth, and knaves always tell the truth. You meet two inhabitants: A and B. A says, \"At least two of us are knaves.\" What are A and B?",
+        "unpuzzle_solution": "Since everyone tells the truth, A must be telling the truth. Both A and B are therefore knaves.",
+        "unpuzzle_answer": "Both are knaves",
+        "source": "https://en.wikipedia.org/wiki/Knights_and_Knaves"
+    },
+    {
+        "puzzle_name": "The Two Buckets Problem",
+        "original_puzzle": "You have a 3-gallon bucket and a 5-gallon bucket. How can you measure exactly 4 gallons of water using these two buckets?",
+        "original_solution": "Fill the 3-gallon bucket and pour in into the 5 gallon. Then fill the three gallon bucket again, and pour in into the 5 gallon until it is full; this leaves 1 gallon. Empty the 5 gallon bucket, then pour the entire contents of the three 3 gallon bucket into it, then fill and pour the 3 gallon bucket into the 5 gallon bucket again. The 5 gallon bucket now has 1 + 3 = 4 gallons in it.",
+        "original_answer": " ",
+        "unpuzzle": "You have a 2-gallon bucket and a 6-gallon bucket. How can you measure exactly 4 gallons of water using these two buckets?",
+        "unpuzzle_solution": "There are two solutions. First, you can use the 2 gallon bucket twice. The second solution is to  fill up the 6 gallon bucket and pour enough water out to fill up the 2 gallon bucket, leaving 4 gallons left.",
+        "unpuzzle_answer": " ",
+        "source": " "
+    },
+    {
+        "puzzle_name": "The Snail in the Well Puzzle",
+        "original_puzzle": "A snail is at the bottom of a 30-foot well. Each day, it climbs up 3 feet, but each night it slips back 2 feet. How many days will it take for the snail to reach the top of the well?",
+        "original_solution": "The plan here is that you will slightly out smart yourself and having worked out that the net speed is +1 foot per hour you will just use common sense and say 30feet at 1 foot an hour is 30 hours...\n\nThe answer is actually 28 hours. Why? The logic is true, 1 foot an hour for, let's say, 27 hours/feet, then at the end of the 28th hour the snail climbs 3 feet (making 30 feet,) and reaches the top before, this time, not sliding back.",
+        "original_answer": "28",
+        "unpuzzle": "A snail is at the bottom of a 30-foot well. Each day, it climbs up 3 feet. How many days will it take for the snail to reach the top of the well?",
+        "unpuzzle_solution": "It will take 10 days; since the snail makes 3 feet of progress a day, in 10 days it will have made 30 feet of progress and reached the top of the well.",
+        "unpuzzle_answer": "10",
+        "source": "https://puzzles.nigelcoldwell.co.uk/sixtytwo.htm"
+    },
+    {
+        "puzzle_name": "The Two Envelopes Problem",
+        "original_puzzle": "You are given two envelopes, each containing a sum of money. One envelope contains twice as much money as the other. You pick one envelope at random and see the amount inside. You are then given the option to switch envelopes. Should you switch, and why?",
+        "original_solution": "\"This is the classic \u201ctwo envelopes\u201d paradox. A na\u00efve calculation seems to show that you can gain by switching, but in fact there is no advantage either way. Here is why:\n\n1. Setup of the paradox:  \n   \u2022 There are two envelopes, one with X dollars and one with 2X dollars.  \n   \u2022 You pick an envelope at random, open it, and see an amount A.  \n   \u2022 You wonder, \u201cIs A the smaller amount or the larger amount?\u201d  \n\n2. The flawed \u201cna\u00efve\u201d argument:  \n   \u2022 You think: \u201cThere\u2019s a 50% chance this A is the smaller amount (so the other envelope would have 2A), and a 50% chance it\u2019s the larger amount (so the other envelope would have A/2).\u201d  \n   \u2022 Based on that, you compute the \u2018expected value\u2019 of switching to be:  \n       (1/2) \u00d7 (2A) + (1/2) \u00d7 (A/2) = A + A/4 = 1.25A,  \n     which is greater than A (the amount you currently hold).  \n\n3. Where the paradox arises:  \n   \u2022 That \u201c50\u201350 split\u201d between having the smaller and the larger amount is not necessarily correct once you have observed A.  \n   \u2022 The calculation implicitly assumes that \u201cA\u201d can equally likely be the smaller or larger half without carefully specifying any probability distribution for the original amounts.  \n\n4. Correct reasoning:  \n   \u2022 Without additional information about X (the smaller amount), there is no basis to prefer one envelope over the other after you see A.  \n   \u2022 The \u201cexpected gain\u201d argument cancels out once you acknowledge that seeing a specific amount A does not let you assign a simple 50\u201350 chance for \u201cA is X\u201d versus \u201cA is 2X.\u201d  \n\nConclusion:  \nIn general, there is no advantage to switching solely based on seeing the amount. If you have no extra information (e.g., about the possible range or distribution of X), your expected value is the same whether you switch or not. The apparent paradox appears only because of the flawed assumption about the probabilities after opening the first envelope.\"",
+        "original_answer": "No",
+        "unpuzzle": "You are given two envelopes, each containing a sum of money. One envelope contains twice as much money as the other envelope which contains $20. You pick one envelope at random and see the amount inside is $20. You are then given the option to switch envelopes. Should you switch?",
+        "unpuzzle_solution": "Since you saw $20 in your envelope, you know that the other envelope must contain $40. Therefore, you should switch.",
+        "unpuzzle_answer": "Yes",
+        "source": "https://en.wikipedia.org/wiki/Two_envelopes_problem"
+    },
+    {
+        "puzzle_name": "The Four Glasses Puzzle ",
+        "original_puzzle": "Four glasses are placed on the corners of a square Lazy Susan. Some of the glasses are upright (up) and some upside-down (down). A blindfolded person is seated next to the Lazy Susan and is required to re-arrange the glasses so that they are all up or all down, either arrangement being acceptable. The glasses may be re-arranged in turns subject to the following rules. Any two glasses may be inspected in one turn and after feeling their orientation the person may reverse the orientation of either, neither or both glasses. After each turn the Lazy Susan is rotated through a random angle. What is the minimum number of turns needed such that a deterministic algorithm can ensure that all glasses have the same orientation (either up or down)?",
+        "original_solution": "An algorithm that guarantees the bell will ring in at most five turns is as follows:\n\nOn the first turn choose a diagonally opposite pair of glasses and turn both glasses up.\nOn the second turn choose two adjacent glasses. At least one will be up as a result of the previous step. If the other is down, turn it up as well. If the bell does not ring, then there are now three glasses up and one down.\nOn the third turn choose a diagonally opposite pair of glasses. If one is down, turn it up and the bell will ring. If both are up, turn one down. There are now two glasses down, and they must be adjacent.\nOn the fourth turn choose two adjacent glasses and reverse both. If both were in the same orientation then the bell will ring. Otherwise there are now two glasses down and they must be diagonally opposite.\nOn the fifth turn choose a diagonally opposite pair of glasses and reverse both. The bell will ring.",
+        "original_answer": "5",
+        "unpuzzle": "Four glasses are placed on the corners of a square Lazy Susan. Some of the glasses are upright (up) and some upside-down (down). A blindfolded person is seated next to the Lazy Susan and is required to re-arrange the glasses so that they are all up or all down, either arrangement being acceptable. The glasses may be re-arranged in turns subject to the following rules. Any four glasses may be inspected in one turn and after feeling their orientation the person may reverse the orientation of any number of glasses. After each turn the Lazy Susan is rotated through a random angle. What is the minimum number of turns needed such that a deterministic algorithm can ensure that all glasses have the same orientation (either up or down)?",
+        "unpuzzle_solution": "The blindfolded person simply picks up all glasses and rearranges them to be all upright or upside-down. This requires one turn.",
+        "unpuzzle_answer": "1",
+        "source": "https://en.wikipedia.org/wiki/Four_glasses_puzzle"
+    },
+    {
+        "puzzle_name": "The 25 Horses Puzzle",
+        "original_puzzle": "You have 25 horses and need to find the three fastest horses. You can race five horses at a time, but you do not have a stopwatch. What is the minimum number of races required to determine the three fastest horses?",
+        "original_solution": "First, we group the horses into groups of 5 and race each group on the race course. This gives us 5 races (see image below).  Imagine a table with five rows and six columns, each row represents one race of 5 horses. For convenience, let us name the horses using the row and column index. Therefore, the first race(row 1) was contested between the horses R1C1, R1C2, R1C3, R1C4 and R1C5. The second race (row 2) was contested between the horses R2C1, R2C2 and so on. Let us assume that the fifth member of each row won the race (R1C5 won the first race, R2C5 won the second race and so on), the fourth member of each row came second (R1C4 came second in the first race, R2C4 came second in the second race and so on) and the third member of each group came third (R1C3 came third in the first race, R2C3 came third in the second race and so on). \n\nNext, we race the 5 level 1 winners (R1C5, R2C5, R3C5, R4C5 and R5C5). Let's say R1C5 wins this race, R2C5 comes second and R3C5 comes third. The winner of this race (R1C5) is the fastest horse of the entire group. Now, the horse which is second in the entire group can either be R2C5 or R1C4. The horse which is third in the entire group can either be R3C5, R2C4 or R1C3. Therefore, we race these 5 horses. Therefore, the horse R1C5 is the fastest horse. The horses which come first and second in the last race are the horses which are second and third in the entire group respectively. in this way, the minimum number of races required to determine the first, second and third horses in the entire group is 7. \n ",
+        "original_answer": "7",
+        "unpuzzle": "You have 25 horses and need to find the three fastest horses. You can race twenty-five horses at a time, but you do not have a stopwatch. What is the minimum number of races required to determine the three fastest horses?",
+        "unpuzzle_solution": "Put all the horses in one race: the three fastest will be the top three finishers in this race.",
+        "unpuzzle_answer": "1",
+        "source": "https://www.geeksforgeeks.org/puzzle-9-find-the-fastest-3-horses/"
+    },
+    {
+        "puzzle_name": "The Three Cannibals and Three Missionaries Problem",
+        "original_puzzle": "Three missionaries and three cannibals need to cross a river using a boat that can hold at most two people. If the cannibals ever outnumber the missionaries on either side of the river, they will eat them. What is the minimum number of trips needed?",
+        "original_solution": "1. Send two cannibals.\n2. Send one cannibal back.\n3. Send two cannibals.\n4. Send one cannibal back.\n5. Send two missionaries.\n6. Send one missionary and one cannibal back.\n7. Send two missionaries.\n8. Send one cannibal back.\n9. Send two cannibals.\n10. Send one cannibal back.\n11. Send two cannibals.",
+        "original_answer": "11",
+        "unpuzzle": "Three missionaries and three cannibals need to cross a river using a boat that can hold at most six people. If the cannibals ever outnumber the missionaries on either side of the river, they will eat them. What is the minimum number of trips needed?",
+        "unpuzzle_solution": "Only one trip is needed since the boat is big enough to fit everyone at once.",
+        "unpuzzle_answer": "1",
+        "source": "https://en.wikipedia.org/wiki/Missionaries_and_cannibals_problem"
+    },
+    {
+        "puzzle_name": "Three Locked Boxes",
+        "original_puzzle": " You have three boxes, one containing gold. Each box has a statement written on it. Only one statement is true.    * Box 1: \"The gold is not here.\"    * Box 2: \"The gold is not here.\"    * Box 3: \"The gold is in Box 2.\"    Which box contains the gold?",
+        "original_solution": "\"To determine where the gold is, check which configuration allows exactly one statement to be true:\n\n1. Suppose the gold is in Box 1:  \n   \u2022 Box 1 says \u201cThe gold is not here.\u201d This would be false.  \n   \u2022 Box 2 says \u201cThe gold is not here.\u201d This would be true (since the gold is in Box 1).  \n   \u2022 Box 3 says \u201cThe gold is in Box 2.\u201d This would be false.  \n   Here, exactly one statement is true (the one on Box 2).\n\n2. Suppose the gold is in Box 2:  \n   \u2022 Box 1 says \u201cThe gold is not here.\u201d True.  \n   \u2022 Box 2 says \u201cThe gold is not here.\u201d False.  \n   \u2022 Box 3 says \u201cThe gold is in Box 2.\u201d True.  \n   That makes two statements true, which contradicts the puzzle\u2019s requirement.\n\n3. Suppose the gold is in Box 3:  \n   \u2022 Box 1 says \u201cThe gold is not here.\u201d True.  \n   \u2022 Box 2 says \u201cThe gold is not here.\u201d True.  \n   \u2022 Box 3 says \u201cThe gold is in Box 2.\u201d False.  \n   That makes two statements true, violating the condition.\n\nOnly when the gold is in Box 1 do we get exactly one true statement. Therefore, the gold is in Box 1.\"",
+        "original_answer": "Box 1",
+        "unpuzzle": "You have three boxes, one containing gold. Each box has a statement written on it. All statements are true.  Box 1: \"The gold is not here.\"  Box 2: \"The gold is  here.\" Box 3: \"The gold is in Box 2.\"    Which box contains the gold?",
+        "unpuzzle_solution": "Box 2 clearly indicates it holds the gold; the other two statements do not contradict this statement.",
+        "unpuzzle_answer": "Box 2",
+        "source": " "
+    },
+    {
+        "puzzle_name": "Duck Counting",
+        "original_puzzle": "There are two ducks in front of a duck, two ducks behind a duck and a duck in the middle. How many ducks are there?",
+        "original_solution": "Three: one duck in front, one in the middle, and one behind.",
+        "original_answer": "3",
+        "unpuzzle": "There are two ducks in front of the chicken, two ducks behind the chicken, and a duck to the left of the chicken. How many ducks are there?",
+        "unpuzzle_solution": "The chicken in the middle with two ducks in front of it, two ducks behind of it, and one duck to the left of it. This total 5 ducks.",
+        "unpuzzle_answer": "5",
+        "source": " "
+    },
+    {
+        "puzzle_name": "Searching for Marriage",
+        "original_puzzle": "Jack is looking at Anne. Anne is looking at George. Jack is married, George is not, and we don\u2019t know if Anne is married. Is a married person looking at an unmarried person?",
+        "original_solution": "If Anne is married, then she is looking at an unmarried George so the answer is yes. If Anne is not married, than a married Jack is looking at her so the anwer is also yes.",
+        "original_answer": "Yes",
+        "unpuzzle": "Jack is looking at Anne. Anne is looking at George. Jack is not married, Anne is not married, and we don\u2019t know if George is married. George is not looking at anyone. Is a married person looking at an unmarried person?",
+        "unpuzzle_solution": "Jand and Ann are the only people looking at another person, and neither is married. Hence, no married person is looking at anyone else, unmarried or otherwise.",
+        "unpuzzle_answer": "No",
+        "source": " "
+    },
+    {
+        "puzzle_name": "More Socks",
+        "original_puzzle": "A man has 53 socks in his drawer: 21 identical blue, 15 identical black and 17 identical red. The lights are out and he is completely in the dark. How many socks must he take out to make 100 percent certain he has at least one pair of black socks?",
+        "original_solution": "The worst case is if the man takes out every non-black socks before the second black sock; this would by 1 + 21+17 socks, so the 40th sock would be black.",
+        "original_answer": "40",
+        "unpuzzle": "A man has 53 socks in his drawer: 21 identical blue, 15 identical black and 17 identical red. There is no distinction between left and right socks. The lights are out and he is completely in the dark. How many socks must he take out to have one sock for each foot?",
+        "unpuzzle_solution": "The man only wants 2 socks and does not place any restriction on the color. Hence, any two socks will do.",
+        "unpuzzle_answer": "2",
+        "source": " "
+    },
+    {
+        "puzzle_name": "Lion and Unicorn",
+        "original_puzzle": "A girl meets a lion and unicorn in the forest. The lion lies every Monday, Tuesday and Wednesday and the other days he speaks the truth. The unicorn lies on Thursdays, Fridays and Saturdays, and the other days of the week he speaks the truth. \u201cYesterday I was lying,\u201d the lion told the girl. \u201cSo was I,\u201d said the unicorn. What day is it?",
+        "original_solution": "We know he Lion lies on Mon/Tue/Wed and tells the truth on Thu/Fri/Sat/Sun; the Unicorn lies on Thu/Fri/Sat and tells the truth on Sun/Mon/Tue/Wed.\n\nThey say:\n1) Lion: \u201cYesterday I was lying.\u201d  \n2) Unicorn: \u201cSo was I.\u201d (i.e., \u201cI, too, was lying yesterday.\u201d)\n\nIn is easy to verify that the two conditions are consistent on Thursday:\n\u2013 The Lion tells the truth on Thursday, so his statement \u201cYesterday I was lying\u201d must be true.  This implies that The Lion was lying on Wednesday (which is correct, since Wed is a lying day for the Lion).  \n\u2013 The Unicorn lies on Thursday, so his statement \u201cI was lying yesterday\u201d must be false. This implies that the Unicorn was not lying on Wednesday (which is correct, since Wed is a truth day for the Unicorn).  \n\nOne can also check that no other day works.",
+        "original_answer": "Thursday",
+        "unpuzzle": "A girl meets a lion and unicorn in the forest. The lion lies every Monday, Tuesday and Wednesday and the other days he speaks the truth. The unicorn lies on Thursdays, Fridays and Saturdays, and the other days of the week he speaks the truth. \u201cToday I am telling the truth. Yesterday, the unicorn was lying,\u201d the lion told the girl. \u201cI agree\u201d said the unicorn. What day is it?",
+        "unpuzzle_solution": "If the lion is telling the truth, then today must be Sunday. On sundays, the Unicorn tells the truth and would only agree with the lion if the lion was truthful.\n\nIf the lion is lying, then it must be Monday, Tuesday, or Wednesday. On these days, the Unicorn tells the truth so the unicorn would not agree with the lion. Hence, today must be Sunday.",
+        "unpuzzle_answer": "Sunday",
+        "source": " "
+    },
+    {
+        "puzzle_name": "River crossing with a weight constraints",
+        "original_puzzle": "Four adventurers (Alex, Brook, Chris and Dusty) need to cross a river in a small canoe. The canoe can only carry 100kg. Alex weighs 90kg, Brook weighs 80kg, Chris weighs 60kg and Dusty weighs 40 kg, and they have 20kg of supplies. How do they get across?",
+        "original_solution": "There may be a couple variations that will work, but here\u2019s one way: Chris and Dusty row across (combined 100kg), Dusty returns. Alex rows over, and Chris returns. Chris and Dusty row across again, Dusty returns. Brook rows across with the supplies (combined 100kg), and Chris returns. Chris and Dusty row across again.",
+        "original_answer": " ",
+        "unpuzzle": "Four people (Alex, Brook, Chris and Dusty) want to cross a river in a boat that can only carry 300kg. Alex weighs 90kg, Brook weighs 80kg, Chris weighs 60kg and Dusty weighs 40kg, and they have 20kg of supplies. What is the minimum number of river crossings they need to get across?",
+        "unpuzzle_solution": "The weight of everybody totals 300kg, so they can all fit in the boat and cross in a single trip.",
+        "unpuzzle_answer": "1",
+        "source": "https://www.mathsisfun.com/puzzles/four-adventurers-and-a-small-canoe.html"
+    },
+    {
+        "puzzle_name": "Tennis winnings",
+        "original_puzzle": "Susan and Lisa decided to play tennis against each other. They bet $1 on each game they played. Susan won three bets and Lisa won $5. How many games did they play?",
+        "original_solution": "They played 11 games. Lisa's winning of $5 means that she won 5 more games than she lost. If Susan won 3 games, this means that Lisa must have won 3 + 5 games. In total, this makes 11 games: three that Susan won, and 8 that Lisa won.",
+        "original_answer": "11",
+        "unpuzzle": "Susan and Lisa decided to play tennis against each other. They bet $1 on each game they played. Susan won three bets and lisa lost $3. How many games did they play?",
+        "unpuzzle_solution": "Susan won three games, which means that lisa lost $3.",
+        "unpuzzle_answer": "3",
+        "source": " "
+    },
+    {
+        "puzzle_name": "Cutting a chocolate bar",
+        "original_puzzle": "How many steps are required to break an m \u00d7 n sized bar of chocolate into 1 \u00d7 1 pieces? You can break an existing piece of chocolate horizontally or vertically. You cannot break two or more pieces at once (so no cutting through stacks).",
+        "original_solution": "You need m \u00d7 n \u2212 1 steps. By breaking an existing piece horizontally or vertically, you merely increase the total number of pieces by one. You already have 1 piece, so need m \u00d7 n \u2212 1 steps to get to m \u00d7 n pieces.",
+        "original_answer": "m * (n-1) steps",
+        "unpuzzle": "How many steps are required to break an m \u00d7 n sized bar of chocolate into m \u00d7 1 pieces? You can break an existing piece of chocolate horizontally or vertically. You cannot break two or more pieces at once (so no cutting through stacks).",
+        "unpuzzle_solution": "Every cut increases the number of pieces by 1. The bar is divided into n pieces of size m x 1 pieces; we therefore need n-1 cuts.",
+        "unpuzzle_answer": "n-1",
+        "source": "https://www.mathsisfun.com/puzzles/breaking-up-a-chocolate-bar.html"
+    },
+    {
+        "puzzle_name": "Egg drop",
+        "original_puzzle": "You are in a 100-story building and have two identical eggs. You need to find the highest floor from which an egg can be dropped without breaking. What is the maximum number of drops needed for a strategy that minimizes the worst-case number of drops?",
+        "original_solution": "Let us make our first attempt on x'th floor. \n\nIf it breaks, we try remaining (x-1) floors one by one. \nSo in worst case, we make x trials.\n\nIf it doesn't break, we jump (x-1) floors (Because we have\nalready made one attempt and we don't want to go beyond \nx attempts.  Therefore (x-1) attempts are available),\n    Next floor we try is floor x + (x-1)\n\nSimilarly, if this drop does not break, next need to jump \nup to floor x + (x-1) + (x-2), then x + (x-1) + (x-2) + (x-3)\nand so on.\n\nSince the last floor to be tried is 100'th floor, sum of\nseries should be 100 for optimal value of x.\n\n x + (x-1) + (x-2) + (x-3) + .... + 1  = 100\n\n x(x+1)/2  = 100\n         x = 13.651\n\nTherefore, we start trying from 14'th floor. If Egg breaks on 14th floor\nwe one by one try remaining 13 floors, starting from 1st floor.  If egg doesn't break\nwe go to 27th floor.\nIf egg breaks on 27'th floor, we try floors form 15 to 26.\nIf egg doesn't break on 27'th floor, we go to 39'th floor.\n\nAn so on...",
+        "original_answer": "14",
+        "unpuzzle": "You are in a 100-story building and have a single egg. You need to find the highest floor N from which an egg can be dropped without breaking. What's the minimum number of drops needed for a strategy that minimizez the worst-case number of drops?",
+        "unpuzzle_solution": "Because there is only one egg, we must drop it from one floor higher than the highest floor N; otherwise, we can never learn N. We must start at the ground floor and work up, which has a worst number of drops of 100.",
+        "unpuzzle_answer": "99",
+        "source": "https://www.geeksforgeeks.org/puzzle-set-35-2-eggs-and-100-floors/"
+    },
+    {
+        "puzzle_name": "Clocks",
+        "original_puzzle": "How many times a day do the hour and minute hands of a clock overlap?",
+        "original_solution": "The overlap will happen 11 times in a 12 hour period and so the answer is just 1/11th of 12 hours. It's difficult to divine this. But it makes sense. Just as we reasoned our first overlap will be at just after 1:05 we can reason that our last will be just before 10:55. Our overlaps will be at just after 1:05, a bit more after 2:10, even more after 3:15 and so on (actual times give at the end) but since our last is a bit before 10:55 there will be no overlap whilst the Hour Hand is indicating 11.",
+        "original_answer": "25",
+        "unpuzzle": "How many times a day do the hour and minute hands of a clock stopped at 1pm overlap?",
+        "unpuzzle_solution": "None: the hour and minute hand do not overlap at 1pm.",
+        "unpuzzle_answer": "0",
+        "source": "https://puzzles.nigelcoldwell.co.uk/thirtyfive.htm"
+    },
+    {
+        "puzzle_name": "Infinite Hotel",
+        "original_puzzle": "A hotel has infinitely many rooms, all occupied. A new guest arrives. How can you accommodate them? Now, infinitely many new guests arrive. How can you accommodate them all?",
+        "original_solution": "move guests to room n+1 / 2n",
+        "original_answer": " ",
+        "unpuzzle": "A hotel has infinitely many rooms, none occupied. A new guest arrives. How can you accommodate them? Now, finitely many new guests arrive. How can you accommodate them all?",
+        "unpuzzle_solution": "Since the hotel is empty, you can accommodate the first guest by placing the guest in any room, such as room 1.  When finitely many guests arrive, you can place the first guest in room 1, the second guest in room 2, and so on. This process terminates because the number of guests is finite.",
+        "unpuzzle_answer": " ",
+        "source": "https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel#:~:text=It%20is%20also%20possible%20to,be%20free%20for%20the%20new"
+    },
+    {
+        "puzzle_name": " The 100 Prisoners with boxes",
+        "original_puzzle": "100 prisoners are each assigned a random number from 1-100. In a room, there are 100 boxes numbered 1-100, each containing one of these numbers. Each prisoner may open up to 50 boxes to find their number. If ALL prisoners find their number, they all go free. If ANY fail, they all die. They can't communicate after the strategy session. What strategy gives them the best chance of survival?",
+        "original_solution": "The optimal strategy gives them a ~31% chance of survival: Each prisoner starts with their assigned number's box. If their number isn't inside, they open the box number they found, continuing this \"loop\" up to 50 times. This works because the boxes form loops, and if no loop is longer than 50, everyone succeeds.",
+        "original_answer": " ",
+        "unpuzzle": "100 prisoners are each assigned a random number from 1-100. In a room, there are 100 boxes numbered 1-100, each containing one of these numbers. Each prisoner may open up to 100 boxes to find their number. If ALL prisoners find their number, they all go free. If ANY fail, they all die. They can't communicate after the strategy session. What strategy gives them the best chance of survival?",
+        "unpuzzle_solution": "Since each prisoner can open 100 boxes, each prisoner can open every singe box. This guarantees that every prisoner finsd their number and they all go free with probability 1.",
+        "unpuzzle_answer": " ",
+        "source": "https://en.wikipedia.org/wiki/100_prisoners_problem"
+    },
+    {
+        "puzzle_name": "Coin Grid (a.k.a. lights out)",
+        "original_puzzle": "You have a 5x5 grid of coins, each showing either heads or tails. You can flip any coin, but when you do, all adjacent coins (not diagonals) also flip. Can you always achieve all heads regardless of the starting position?",
+        "original_solution": "Yes, it is always possible. You can prove this mathematically by modeling the position of the coins with a binary vector and writing down the effect of all flip operations in a \"toggle matrix.\" The invertibility of this matrix implies that you can move from any state to any other state.",
+        "original_answer": "Yes",
+        "unpuzzle": "You have a 5x5 grid of coins, each showing either heads or tails. You can flip any coin. Can you always achieve all heads regardless of the starting position?",
+        "unpuzzle_solution": "Because you can independently flip every count, you can flip all the tails-up coins. Every coin will then be heads.",
+        "unpuzzle_answer": "Yes",
+        "source": "https://en.wikipedia.org/wiki/Lights_Out_(game)"
+    },
+    {
+        "puzzle_name": "Handshake Problem",
+        "original_puzzle": "A woman and her husband attended a party with four other couples, and handshaking took place. No one shook their own hand or the hand of the person they came with, and not everyone shook hand with everyone else. When the woman asked the other nine people present how many different people's hands they had shaken, they all gave a different answer. How many different people's hands did the woman's husband shake?",
+        "original_solution": "There are ten people, and no one shook more than 8 hands. If everyone the woman asked provided a different number, then there must be some one who shook 0, 1, 2, 3, 4, 5, 6, 7, and 8 hands. We begin by concluded that the person that shook 8 shook hands with everyone except for his or her spouse, implying that everyone except must have shaken hands at least once; hence, the person who shook 8 hands and the person who shook 0 hands are married. If we then example the remaining 4 couples and ignore the hand shaking with the first couple, we can conclude that the person who shook 7 hands and 1 hand are also married. By incuction, this means that 0 and 8, 7 and 1, 6 and 2, 5 and 3 are married. The last couple both shook 4 people's hands. Since the woman in question recieved different aswers from everyone, that means that she must be from the couple that shook 4 hands. Hence, her husband shook 4 hands.",
+        "original_answer": "4",
+        "unpuzzle": "A woman and her husband attended a party with three other couples, and handshaking took place. No one shook their own hand or the hand of the person they came with. When the woman asked the other seven people present how many different people's hands they had shaken, they all gave the same answer: six. How many different people's hands did the woman's husband shake?",
+        "unpuzzle_solution": "Because no one shook hands with their partner or themselves, the maximum number of hands anyone could have shook is six. Since everyone shook 6 hands the maximum number of people. This means, in particular, that the woman's husband shook hands with 6 people as well.",
+        "unpuzzle_answer": "6",
+        "source": "https://people.cs.umass.edu/~pthomas/LogicPuzzles.html"
+    },
+    {
+        "puzzle_name": "Math student party",
+        "original_puzzle": "A scientist gathered four math students. They were then lined up so that each one could see the one in front of them but not behind them. Each had a hat placed on their head so the student in the back could see the hats of the three students in front, but the student in front could not see any hats. There is a red hat, a white hat, and a blue hat. The fourth hat is a duplicate. Starting with the one in the back, each student was asked what color hat they were wearing. They all gave the correct answer! What was the arrangement of the hats that made this possible?",
+        "original_solution": "Any arrangement where the two front students are wearing the same colored hat will work.",
+        "original_answer": "Any arrangement where the two front students are wearing the same colored hat ",
+        "unpuzzle": "A scientist gathered four math students. They were then lined up so that each one could see the one in front of them but not behind them. Each had a hat placed on their head so the student in the back could see the hats of the three students in front, but the student in front could not see any hats. There is a red hat, a white hat, and a blue hat, and a yellow hat. Starting with the one in the back, each student was asked what color hat they were wearing. They all gave the correct answer! What was the arrangement of the hats that made this possible?",
+        "unpuzzle_solution": "There are only four hat colors. This lets the last student, who can see three hats in front of them, to deduce their hat color. Every subsequent student can also deduce their hat color by elimination since the know all the hat colors of students in front of them (because they can see the hats) and the student behind them (because they hear the correct answers).",
+        "unpuzzle_answer": "Any arrangement will work",
+        "source": "https://www.mathsisfun.com/puzzles/math-hats.html"
+    },
+    {
+        "puzzle_name": "Tea Party",
+        "original_puzzle": "Mrs Goodsworthy has 6 gorgeous hats. 3 are green, 2 are blue, and 1 is canary yellow. Four of her friends, Janet, Collette, Melanie, and Anya have come for tea and are trying on her hats. Mrs. Goodsworthy helps each friend put on a hat and has them stand in a line in the following order, from back to front: Janet, Collette, Melanie, Anya. For example, Anya cannot see any hats. None of the ladies can see what color hat she is wearing and can only see the colors of the hats of the ladies in front of them. Mrs. Goodsworthy asks her friends what color hat each of them is wearing, and Janet says she can't tell. Collette says she isn't able to tell either, and Melanie says she can't tell. Anya, on the other hand, is able to announce the color of her hat. How was Anya able to figure out the color of her hat, and what was the color?",
+        "original_solution": "If Janet and Collette said \"I can't tell\" it tells Melanie that hers or Anya's is the hat that there were 3 of (i.e., green). If Melanie saw any other colour she would therefore know that hers was green, but, since she didn't, Anya knew hers was green.",
+        "original_answer": "Green",
+        "unpuzzle": "Mrs Goodsworthy has 4 gorgeous hats. 2 are green, 1 is blue, and 1 is canary yellow. Four of her friends, Janet, Collette, Melanie, and Anya have come for tea and are trying on her hats. Mrs. Goodsworthy helps each friend put on a hat and has them stand in a line in the following order, from back to front: Janet, Collette, Melanie, Anya. All the ladies, except for Anya, are blindfolded and cannot see any of the hat colors, but Anya can look around and see every hat except her own. Mrs. Goodsworthy asks her friends what color hat each of them is wearing, and Janet says she can't tell. Collette says she isn't able to tell either, and Melanie says she can't tell. Anya, on the other hand, is able to announce the color of her hat. How was Anya able to figure out the color of her hat?",
+        "unpuzzle_solution": "Anya can observe the other three hat colors and deduce hers by elimination.",
+        "unpuzzle_answer": " ",
+        "source": "https://www.mathsisfun.com/puzzles/mrs-goodsworthys-hats.html"
+    },
+    {
+        "puzzle_name": "Magnetic Shoes",
+        "original_puzzle": "I am standing on the vertex of a magnetic cube wearing steel shoes. When I walk along an edge, my shoes leave a trail. I want to walk along the cube in such a way that at the end, from the trails, you can see I walked along each edge exactly once. Is this possible?",
+        "original_solution": "A concise way to see why this is impossible is to think of the cube as a graph: it has 8 vertices, and each vertex is connected to 3 edges (so each vertex has degree 3, an odd number). A fundamental fact from graph theory (Eulerian paths) is that a path that uses every edge exactly once can exist only if the graph has at most two vertices of odd degree. \n\nSince a cube graph has 8 vertices of odd degree, it is impossible to walk every edge precisely once in a single continuous route. In other words, there is neither an Eulerian path nor an Eulerian circuit on the standard cube.",
+        "original_answer": "No",
+        "unpuzzle": "I am standing on the vertex of a magnetic cube wearing steel shoes. When I walk along an edge, my shoes leave a trail. When I walk over the interior of a face, my shoes do not leave a trail. I want to walk along the cube in such a way that at the end, from the trails, you can see I walked along each edge exactly once. Is this possible?",
+        "unpuzzle_solution": "A succinct way to see why the answer is \u201cyes\u201d (provided you allow yourself to step across faces) is to use the standard parity argument from graph theory:\n\n1) Think of the cube\u2019s edges and vertices as a graph. The cube has 8 vertices, each of degree 3.  \n2) A trail that uses every edge exactly once (an Eulerian trail) can exist only if the underlying graph has exactly 0 or 2 vertices of odd degree. But here, all 8 vertices have odd degree (3).  \n3) However, each time you \u201ccross a face\u201d (i.e., move from one vertex to another without using an edge), you effectively change the parity of those two vertices:  \n   \u2013 From the point of view of the edges, \u201cleaving\u201d one vertex and \u201carriving\u201d at the other vertex without using an edge toggles each of their degrees (in the sense of how many edges you use to enter or leave that vertex).  \n4) Since you start with 8 odd\u2010degree vertices and you need exactly 2 to remain odd, you must toggle 6 vertices from odd to even. Each \u201cface crossing\u201d toggles 2 vertices, so you need exactly 3 such crossings.  \n\nAfter those three crossings (placed appropriately in your route), the resulting walk along the cube\u2019s edges has exactly two vertices of odd degree, permitting you to traverse every edge exactly once in one continuous walk. Visually, someone inspecting only the chalked edges will see that each edge was used exactly once; the off\u2010edge \u201cface crossings\u201d leave no visible trail.",
+        "unpuzzle_answer": "Yes",
+        "source": " "
+    },
+    {
+        "puzzle_name": "Russian roulette",
+        "original_puzzle": "We are to play a version of Russian Roulette, the revolver is a standard six shooter but I will put two bullets in the gun in consecutive chambers. I spin the chambers, put the gun to my head pull the trigger and survive. I hand you the gun and give you a choice. You may put the gun straight to your head and pull the trigger, or you may re-spin the gun before you do the same. Do you re-spin?",
+        "original_solution": "Answer to Puzzle #54: Two Bullet Russian Roulette\n\n54. We are to play a version of Russian Roulette, the revolver is a standard six shooter but I will put two bullets in the gun in consecutive chambers. I spin the chambers, put the gun to my head pull the trigger and survive. I hand you the gun and give you a choice...\nYou may put the gun straight to your head and pull the trigger, or you may re-spin the gun before you do the same.\n\nWhat is your choice and why? How does this differ from the case with only one bullet?\nI found this puzzle whilst googling Wall Street interview questions. It's good fun so lets see what we can do with it:\n\npicture of a revolver containing two bullets for russian rouletteBefore reading the answer can I interest you in a clue?\n\nIf you have never thought about the analogous question with 1 bullet, (and why would you?) we can quickly cover that now. One bullet can be in 6 positions as shown.\n1 B-----\n2 -B----\n3 --B---\n4 ---B--\n5 ----B-\n6 -----B\nObviously you would, with a randomised gun, have a 1 in 6 chance of dying. However, if someone has just fired and survived then we have eliminated the first scenario, B-----, it definitely wasn't that. And we are on the second chamber. We have essentially reduced the game to the following (removing the first row, because it wasn't that, and the first column because that chamber has been fired.):\n2 B----\n3 -B---\n4 --B--\n5 ---B-\n6 ----B\nWhich is just the same as a standard game of Russian Roulette if there were only 5 chambers in the gun. A 1 in 5 chance of dying is worse than a 1 in 6. So in the case of one bullet it would be in your interest to spin and re-randomise the gun.\n\nBack to Two Bullets\nWe will apply the same technique as above but first I would like to explain it intuitively. There's more than a hint of the game battleships here. As the second player we can only be hit by the second bullet in the chamber, remember they are consecutive, if the first bullet has already been fired, and we know it has not. By not spinning we have essentially removed an entire bullet from our problem. That is why we should fire the gun as is. Now lets model it.\n\nIf we randomise the gun we have a 2 in 6 or 1 in 3 chance of dying. The possible set ups at the start of the game are as follows:\n1 BB----\n2 -BB---\n3 --BB--\n4 ---BB-\n5 ----BB\n6 B----B\nAs player 1 didn't die we know it was not scenarios 1 and 6, eliminating those rows, and the first column as that chamber is no longer in the game - we're left with this:\n2 BB---\n3 -BB--\n4 --BB-\n5 ---BB\nGiving us a 1 in 4 chance of dying. By re spinning the gun it would have been 1 in 3. So in the case of 2 consecutive bullets it would not be in your interests to re-spin the chamber.\nAssumptions\nA fundamental assumption is that your objective is to survive the game. After that we're down to the usual, that the gun is randomised and not influenced by the weight of the bullets. The gun never gets jammed, you never miss. All very reasonable perhaps so implicit that you wouldn't think to mention them.\n\n",
+        "original_answer": "Yes",
+        "unpuzzle": "We are to play a version of Russian Roulette, the revolver is a standard six shooter but I will put two bullets in the gun in consecutive chambers. I spin the chambers, pull the trigger, and a bullet is fired. I hand you the gun and give you a choice. You may put the gun straight to your head and pull the trigger, or you may re-spin the gun before you do the same. Do you re-spin?",
+        "unpuzzle_solution": "It does not matter; the bullet was fired already and the six-shooter is empty.",
+        "unpuzzle_answer": "It does not matter",
+        "source": "https://puzzles.nigelcoldwell.co.uk/fiftyfour.htm"
+    },
+    {
+        "puzzle_name": "Conjunctive Fallacy",
+        "original_puzzle": "Linda is 31 years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations. Which is more probable? A) Linda is a bank teller. B) Linda is a bank teller and is active in the feminist movement.",
+        "original_solution": "A) is a single event, while B is the conjunction of two events thus cannot have higher probability.",
+        "original_answer": "A",
+        "unpuzzle": "Linda is 31 years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations. She is active in the feminist movement. Which is more probable? A) Linda is a bank teller. B) Linda is active in the feminist movement.",
+        "unpuzzle_solution": "B is more probable While sho might be a bank teller, so A happens with some probability, we know that she is active in the feminist movement so B happens with certainty.",
+        "unpuzzle_answer": "B",
+        "source": "https://en.wikipedia.org/wiki/Conjunction_fallacy"
+    },
+    {
+        "puzzle_name": "Zebra puzzle / Enstein's puzzle",
+        "original_puzzle": "There are five houses. Each of the five houses is painted a different color, and their inhabitants are of different national extractions, own different pets, drink different beverages and smoke different brands of American cigarettes. The Englishman lives in the red house. The Spaniard owns the dog. Coffee is drunk in the green house. The Ukrainian drinks tea. The green house is immediately to the right of the ivory house. The Old Gold smoker owns snails. Kools are smoked in the yellow house. Milk is drunk in the middle house. The Norwegian lives in the first house. The man who smokes Chesterfields lives in the house next to the man with the fox. Kools are smoked in the house next to the house where the horse is kept. The Lucky Strike smoker drinks orange juice. The Japanese smokes Parliaments. The Norwegian lives next to the blue house. Now, who drinks water, and who owns the zebra?",
+        "original_solution": "Norwegian drinks water, Japanese owns the zebra. This is an Einstein puzzle that can be solved as follows. Assuming that one person drinks water and one owns a zebra, then it is possible not only to deduce the answers to the two questions, but to figure out a complete solution of who lives where, in what color house, keeping what pet, drinking what drink, and smoking what brand of cigarettes. By considering the clues a few at a time, it is possible to slowly build inferences that incrementally complete the puzzle's unique correct solution. For example, the Norwegian lives in house #1, and house #2 must be blue. The Norwegian's house therefore cannot be blue, nor can it be red, where the Englishman lives, or green or ivory, which are next to each other. It must therefore be yellow, which means the Norwegian also smokes Kools.",
+        "original_answer": "The Norwegian drinks the water and the Japanene owns the zebra",
+        "unpuzzle": "There are five houses. Each of the five houses is painted a different color, and their inhabitants are of different national extractions, own different pets, drink different beverages and smoke different brands of American cigarettes. The Englishman lives in the red house. The Spaniard owns the dog. Coffee is drunk in the green house. The Ukrainian drinks tea. The green house is immediately to the right of the ivory house. The Old Gold smoker owns snails. Kools are smoked in the yellow house. Milk is drunk in the middle house. The Norwegian lives in the first house. The man who smokes Chesterfields lives in the house next to the man with the fox. Kools are smoked in the house next to the house where the horse is kept. The Lucky Strike smoker drinks orange juice. The Japanese smokes Parliaments. The Norwegian lives next to the blue house. Now, who owns the dog, and who drink tea?",
+        "unpuzzle_solution": "As given by the premise, the Spaniard owns the dog and the Ukrainian drinks tea.",
+        "unpuzzle_answer": "Spaniard owns the dog and the Ukrainian drinks tea",
+        "source": "https://en.wikipedia.org/wiki/Zebra_Puzzle"
+    },
+    {
+        "puzzle_name": "Wason selection problem",
+        "original_puzzle": "You are shown a set of four cards placed on a table, each of which has a number on one side and a color on the other. The visible faces of the cards show 3, 8, blue and red. Which card(s) must you turn over in order to test that if a card shows an even number on one face, then its opposite face is blue?",
+        "original_solution": "two cards: 8 and red",
+        "original_answer": "An 8 and a red card",
+        "unpuzzle": "You are shown a set of four cards placed on a table, each of which has a number on one side and a blue or red color on the other. The visible faces of the cards show 3, 8, blue and red. Which card(s) must you turn over in order to test that if a card shows an even number on one face, then its opposite face is either red or blue?",
+        "unpuzzle_solution": "We are given that all cards are red or blue, so we can deduce that cards with an even number on one face also have a red or blue back. Hence, no no cards need to be turned over to test this claim as we know it to be true.",
+        "unpuzzle_answer": "None",
+        "source": "https://en.wikipedia.org/wiki/Wason_selection_task"
+    },
+    {
+        "puzzle_name": "Cheryl's birthday",
+        "original_puzzle": "Albert and Bernard just became friends with Cheryl, and they want to know when her birthday is. Cheryl gives them a list of 10 possible dates: May 15, May 16, May 19, June 17, June 18, July 14, July 16, August 14, August 15, August 17.  \nCheryl then tells Albert and Bernard separately the month and the day of her birthday respectively. \nAlbert: I don't know when Cheryl's birthday is, but I know that Bernard doesn't know too. \nBernard: At first I don't know when Cheryl's birthday is, but I know now.\nAlbert: Then I also know when Cheryl's birthday is.\nSo when is Cheryl's birthday?",
+        "original_solution": " The answer can be deduced by progressively eliminating impossible dates to find that her birthday is July 16th.",
+        "original_answer": "July 16",
+        "unpuzzle": "Albert and Bernard just became friends with Cheryl, and they want to know when her birthday is. Cheryl gives them a list of 10 possible dates: May 15, May 16, May 19, June 17, June 16, July 14, July 16, August 14, August 15, August 17.  \nCheryl then tells Albert and Bernard separately the month and the day of her birthday, respectively. \nBernard now knows when Cheryl's birthday is.\nSo when is Cheryl's birthday?",
+        "unpuzzle_solution": "For Bernard to know Cheryl's birthay from only heading the day, the day must be unique in the list. May 19 is the only date where the day is not shared by another possible date.",
+        "unpuzzle_answer": "May 19",
+        "source": "https://en.wikipedia.org/wiki/Cheryl%27s_Birthday"
+    },
+    {
+        "puzzle_name": "Wine/water mixing",
+        "original_puzzle": "Start with two barrels, one holding wine and the other an equal volume of water. A cup of wine is taken from the wine barrel and added to the water. A cup of the wine/water mixture is then returned to the wine barrel, so that the volumes in the barrels are again equal. Which of the two mixtures is purer?",
+        "original_solution": "They both end up with exactly the same proportion of \u201cforeign\u201d liquid. To see why, notice that whatever fraction of water migrates into the wine barrel must be replaced by an equal fraction of wine that remains in the water barrel. Consequently, each barrel contains the same amount of \u201ccontamination\u201d from the other, so they are equally pure.",
+        "original_answer": "Equal",
+        "unpuzzle": "Start with two barrels, one holding wine and the other an equal volume of water. A cup of wine is added to the water barrel. A cup of wine is then added to the wine barrel, so that the volumes in the barrels are again equal. Which of the two mixtures is purer?",
+        "unpuzzle_solution": "The wine barrel is still completely wine, so it is purer.",
+        "unpuzzle_answer": "The wine ",
+        "source": "https://en.wikipedia.org/wiki/Wine/water_mixing_problem"
+    },
+    {
+        "puzzle_name": "Finding a cat",
+        "original_puzzle": "A cat is hiding in one of the five boxes. The boxes are numbered one to five and are all sitting in a row, lined up in order. Each night, the sneaky little cat hides in an adjacent box, exactly one box away from the box it's in during the day. Each morning, you can open exactly one box to see if the cat is in there. Can you say with certainty that you will find the cat ? How can you go about this hide and seek game to ensure you find the cat?",
+        "original_solution": "Yes, it is possible to ensure a victory in this hide and seek game. Since the cat always jumps into an adjacent box, you'll know after opening the first box when the cat is in an odd or even numbered box. First, consider the case when the cat started in an even numbered box, i.e., 2 or 4. On day 1, check box numbered 2. If you find the cat, you win. Otherwise, the cat must have been in box numbered 4 (considering only for even number case). So, next day the cat will move to either box numbered 3 or 5. On day 2, check box numbered 3. If you find the cat, you win. Otherwise, the cat must have moved to box numbered 5 and which means the cat can now only move to box numbered 4 on the next day. So, now we check box numbered 4 and we will certainly find the cat! Now, let's consider the case when the cat started in an odd numbered box, i.e., 1, 3 or 5. Following the previous strategy, till day 4 cat would be in either box numbered 2 or 4 because: On day 1, cat is in an odd numbered box 1 or 3 or 5. On day 2, cat will be in an even numbered box 2 or 4. On day 3, cat will again move to an odd numbered box. And therefore on day 4, cat will be either in box numbered 2 or 4 again. This situation is same as the previous case. We can follow the same strategy of checking boxes \"2, 3 and then 4\" and we will find the cat. Hence, final solution is\n\n2, 3, 4, 2, 3, 4",
+        "original_answer": " ",
+        "unpuzzle": "A cat is hiding in one of the five boxes. The boxes are numbered one to five and are all sitting in a row, lined up in order. Each night, the sneaky little cat moves from box one to box two or vice versa. Each morning, you can open exactly one box to see if the cat is in there. Can you say with certainty that you will find the cat ? How can you go about this hide and seek game to ensure you find the cat?",
+        "unpuzzle_solution": "Pick either box 1 or box 2 and keep checking that box. If the cat does not appear in that box the first morning, you know the cat will be there the next day.",
+        "unpuzzle_answer": " ",
+        "source": "https://www.geeksforgeeks.org/aptitude-gq/puzzle-find-cat/"
+    },
+    {
+        "puzzle_name": "Word deduction",
+        "original_puzzle": "A teacher writes six words on a board: \u201ccat dog has max dim tag.\u201d She gives three students, Albert, Bernard and Cheryl each a piece of paper with one letter from one of the words. Then she asks, \u201cAlbert, do you know the word?\u201d Albert immediately replies yes. She asks, \u201cBernard, do you know the word?\u201d He thinks for a moment and replies yes. Then she asks Cheryl the same question. She thinks and then replies yes. What is the word?",
+        "original_solution": "Dog. Albert knows right away because he has one of the unique letters that only appear once in all the words: c o h s x i. So, we know the word is not \u201ctag.\u201d All of these unique letters appear in different words, except for \u201ch\u201d and \u201cs\u201d in \u201chas,\u201d and Bernard can figure out what the word is from the unique letters that are left: t, g, h, s. This eliminates \u201cmax\u201d and \u201cdim.\u201d Cheryl can then narrow it down the same way. Because there is only one unique letter left, the letter \u201cd,\u201d the word must be \u201cdog.\u201d (For more on this answer, watch the video below.)",
+        "original_answer": "dog",
+        "unpuzzle": "A teacher writes six words on a board: \u201ccat doc dog god, cut, dud.\u201d She gives three students, Albert, Bernard and Cheryl each a piece of paper with one letter from one of the words. Then she asks, \u201cAlbert, do you know the word?\u201d Albert immediately replies yes. She asks, \u201cBernard, do you know the word?\u201d He thinks for a moment and replies yes. Then she asks Cheryl the same question. She thinks and then replies yes. What is the word?",
+        "unpuzzle_solution": "A concise way to see why the word must be \u201ccat\u201d is to notice that \u201ca\u201d appears only in \u201ccat\u201d (it does not appear in any of the other five words). Since Albert instantly knows the word from his single letter, he must be holding \u201ca.\u201d Once Bernard and Cheryl realize Albert\u2019s letter must be \u201ca,\u201d they both deduce that the only possible word is \u201ccat.\u201d",
+        "unpuzzle_answer": "cat",
+        "source": "https://www.geeksforgeeks.org/aptitude-gq/puzzle-secret-word/"
+    },
+    {
+        "puzzle_name": "Pet Show",
+        "original_puzzle": "At the Pet Show recently I noticed that all except two of the entries were cats, all except two were dogs, and all except two were fish. How many dogs were at the Pet Show?",
+        "original_solution": "There are one fish, one cat, and one dog.",
+        "original_answer": "1",
+        "unpuzzle": "At the Pet Show for mammals recently I noticed that all except two of the entries were cats, all except two were dogs. How many fish were at the Pet Show?",
+        "unpuzzle_solution": "No fish are allowed in the mammal pet show, so there are zero fish.",
+        "unpuzzle_answer": "0",
+        "source": "https://www.mathsisfun.com/puzzles/pet-show.html"
+    },
+    {
+        "puzzle_name": "Sailing Athletes",
+        "original_puzzle": "There are three Athletes (Alex, Brook and Chris) and their individual Coaches (Murphy, Newlyn and Oakley) standing on the shore. No Coach trusts their Athlete to be near any other Coach unless they are also with them. There is a boat that can hold a maximum of two persons. How can the six people get across the river?",
+        "original_solution": "Alex and Brook cross, then Alex returns. Next, Alex and Chris cross, then Chris returns. Afterwards, coaches Murphy and Newlyn cross to join their Athletes, and Brook and Newlyn return. Then Newlyn and Oakley cross, so all three coaches are across as well as Alex. Then Alex returns and Alex and Brook cross. Finally,  Coach Oakley returns and Chris and Coach Oakley cross. Any permutation of coaches and athletes would also be a valid solution.",
+        "original_answer": " ",
+        "unpuzzle": "There are three Athletes (Alex, Brook and Chris) and their individual Coaches (Murphy, Newlyn and Oakley) standing on the shore and want to get to the other side of the river. No Coach trusts their Athlete to be near any other Coach unless they are also with them. There is a boat that can hold a maximum of six persons.  How can the six people get across the river in fewest trips?",
+        "unpuzzle_solution": "Because the boat can hold siz people, all coaches and athletes travel across the river at once and only one trip is needed.",
+        "unpuzzle_answer": "All go in the same boat",
+        "source": "https://www.mathsisfun.com/puzzles/three-coaches-three-athletes-and-a-river.html"
+    },
+    {
+        "puzzle_name": "Walking the Dog",
+        "original_puzzle": "A girl, a boy, and a dog are walking down a road together. The boy walks at 5 km/h, and is just behind the girl who walks at 6 km/h. The dog runs from boy to girl and back again with a constant speed of 10 km/h. The dog does not slow down on the turn. How far does the dog travel in 1 hour?",
+        "original_solution": "The path of the dog does not matter; what matters in the dog's speed and for how long it travels.",
+        "original_answer": "10",
+        "unpuzzle": "A girl, a boy, and a dog are walking down a road together. The boy walks at 5 km/h, and is just behind the girl who walks at 12 km/h. The dog runs from boy to girl and back again with a constant speed of 10 km/h, but stops to rest every 5km until the boy catches up and gives the dog a reassuring pet. The dog does not slow down on the turn. How far does the dog travel in 1 hour?",
+        "unpuzzle_solution": "In the first 30 minutes, the dog travels 5 km at 10 km/h. The dog then stops and rests until the boy catches up, but the boy just reaches the dog after an hour has passed. During the first hour, the dog spend 30 minutes traveling 5km, then 30 minutes waiting for the boy. In total, the dog traveled 5 km.",
+        "unpuzzle_answer": "5",
+        "source": "https://www.mathsisfun.com/puzzles/girl-boy-and-dog.html"
+    },
+    {
+        "puzzle_name": "Hairytown",
+        "original_puzzle": "The founders of Hairytown decreed years ago that: 1. No two people can have the same number of hairs. 2. No one can have 999 hairs. 3. No one can have more, or the same, number of hairs as the population of the town. The town has now reached its maximum population - what is it?",
+        "original_solution": "There are 999 people in the town, from bald to 998 hairs.\n",
+        "original_answer": "999",
+        "unpuzzle": "The founders of Hairytown decreed years ago that: 1. No two people can have the same number of socks. 2. No one can have more than 998 hairs. 3. No one can have less hairs than the population of the town. The town has now reached its maximum population - what is it?",
+        "unpuzzle_solution": "A succinct way to see why the maximum is 998 is as follows:\n\n\u2022 Everyone must have at least as many hairs as the population (call it N), so each person has at least N hairs.  \n\u2022 No one can have more than 998 hairs, so each person\u2019s hair count is also at most 998.  \n\nHence we must have N \u2264 998. If we try N = 999, everyone would need at least 999 hairs, which exceeds the 998\u2011hair cap\u2014impossible. On the other hand, for N = 998, everyone can have exactly 998 hairs (satisfying both the lower and upper hair limits), and we can give each person a distinct number of socks to meet the \u201cno two people share the same number of socks\u201d condition. Therefore, the largest population consistent with all the decrees is 998.",
+        "unpuzzle_answer": "998",
+        "source": "https://www.mathsisfun.com/puzzles/hairytown.html"
+    },
+    {
+        "puzzle_name": "Egg Timer",
+        "original_puzzle": "You need to boil eggs for exactly 9 minutes, or else the visiting Duchess will complain, and you will lose your job as head chef. But you have only 2 Hourglasses, one measures 7 minutes, and the other measures 4 minutes. How can you correctly measure 9 minutes?",
+        "original_solution": "Start both timers. When the 4 minute timer runs out, flip it. When 7 minute timer runs out, also flip it. When 4 min timer runs out a second time, 8 minutes will have passed so only 1 minute on the 7-minute timer will have ellapsed: flip this timer back over. When the 1 minute runs out, a total of 9 minutes will have ellapsed: 4 from the first flip of the 4 minute timer, 4 from the second flip of the 4 minute timer, and 1 from the partially flipped 7 minute timer: this totals 9 minutes in total.",
+        "original_answer": " ",
+        "unpuzzle": "You need to boil eggs for exactly 9 minutes, or else the visiting Duchess will complain, and you will lose your job as head chef. But you have only 2 Hourglasses, one measures 5 minutes, and the other measures 4 minutes. How can you correctly measure 9 minutes?",
+        "unpuzzle_solution": "Start one hourglass, then start the second hourglass as soon as the first one runs out. When the second hour glass runs out, a total of 5+4=9 minutes will have passed.",
+        "unpuzzle_answer": " ",
+        "source": "https://www.mathsisfun.com/puzzles/hourglasses-1.html"
+    },
+    {
+        "puzzle_name": "Flying around the world",
+        "original_puzzle": "You intend to fly non-stop around the world, but a full tank only takes you halfway around the world. However, you can arrange many planes exactly like yours to assist with refueling. You can only use the starting airport, and refueling can be done midair. Ignoring refueling and turn-around times, what is the minimum number of planes you will need?",
+        "original_solution": "You need three planes. Two planes cannot suffice because you need to transfer 1 tank of fuel to the first plane sometime on the opposite side of the world. One plane cannot do this, since it needs to fly to the opposite side of the world and back and still have extra fuel to give; just the return journey would take a whole tank.\n\nYou can accomplish the task with three planes.  Start three planes from the airport (yours and two others). After going 1/8 around, one plane refuels both yours and the other plane with 1/4 of a tank each, leaving it with 1/4 of a tank which is precisely enough to take it home.\n\nTwo planes continue with a full tank again.\n\nReaching 1/4 around the other plane transfers 1/4 tank of fuel to yours, leaving it with 1/2 tank, to take it precisely home again.\n\nYour plane is now full at 1/4 and can go to 3/4 with that fuel.\n\nThe first returning plane refuels and start off the other way meeting your plane at its 3/4 position, where your plane is empty and the meeting one is half empty. Sharing their fuel they have both 1/4 tank left which can take them to the 7/8 position.\n\nThe remaining plane has arrived there in the meanwhile with 3/4 tank giving 1/4 to the other now empty planes.\n\nAll three planes have now 1/4 and can return home.",
+        "original_answer": "3",
+        "unpuzzle": "You intend to fly non-stop around the world, but a full tank only takes you halfway around the world. However, you can arrange many planes exactly like yours to assist with refueling. You can only use the starting airport, an airport on the opposite side of the planet, and refueling can be done midair or at airports. Ignoring refueling and turn-around times, what is the minimum number of planes you will need?",
+        "unpuzzle_solution": "Simple fly to the airport, using the entire tank, refuel, then use the second tank to complete your journey.",
+        "unpuzzle_answer": "2",
+        "source": "https://www.mathsisfun.com/puzzles/planes-around-the-world.html"
+    },
+    {
+        "puzzle_name": "Pay an employee using a gold rod of 7 units",
+        "original_puzzle": "An employee works for an employer for 7 days. The employer has a gold rod of 7 units. How does the employer pay the employee so that the number of employee\u2019s rod units increases by one at the end of each day? The employer can make at most 2 cuts in the rod. At the end of the day, the employee cannot spend any part of his recieved salary.",
+        "original_solution": "The employer can pay for seven days by making 2 cuts in a way that he has 3 rods of size 1, 2 and 4.",
+        "original_answer": " ",
+        "unpuzzle": "An employee works for an employer for 7 days. The employer has a gold rod of 7 units. How does the employer pay the employee so that the number of employee\u2019s rod units increases by one at the end of each day? The employer can make 6 cuts in the rod, and the employee will not make change.",
+        "unpuzzle_solution": "Cut the rod into 7 one-unit pieces and pay one piece at the end of each day. Because the employee will not make change, you have no choice but to give them an additional unit of gold every day.",
+        "unpuzzle_answer": " ",
+        "source": "https://www.geeksforgeeks.org/puzzle-4-pay-an-employee-using-a-gold-rod-of-7-units/"
+    },
+    {
+        "puzzle_name": "10 coins puzzle",
+        "original_puzzle": "You are blindfolded and 10 coins are placed in front of you on the table. You are allowed to touch the coins but can\u2019t tell which way up they are by feel. You are told that there are 5 coins head up, and 5 coins tails up but not which ones are which.\nCan you make two piles of coins each with the same number of heads up? You can flip the coins any number of times.",
+        "original_solution": "yes. make two piles, flip all coins in one pile",
+        "original_answer": "Yes",
+        "unpuzzle": "You are blindfolded and 10 coins are placed in front of you on the table. You are allowed to touch the coins but can\u2019t tell which way up they are by feel. You are told that there are 7 coins head up, and 3 coins tails up but not which ones are which. Can you make two piles of coins of equal size and each with the same number of heads up? You cannot flip the coins.",
+        "unpuzzle_solution": "No; you cannot divide 7 coins into two equal-sized groups.",
+        "unpuzzle_answer": "No",
+        "source": "https://www.geeksforgeeks.org/puzzle-24-10-coins-puzzle/"
+    },
+    {
+        "puzzle_name": "Chameleon matching",
+        "original_puzzle": "13 purple, 15 yellow, and 17 maroon chameleons are found on an island. When two different-coloured chameleons meet in a pair, they both turn into the third color. Is it possible that, after some pairwise meetings, all the chameleons are the same color?",
+        "original_solution": "As per the question, whenever 2 chameleons of different colours meet, both of them get converted into the third colour chameleon, which means that the number of Chameleons of the two colours (which met) decreases by 1, whereas the number of chameleons of the third colour (they converted into after meeting) increases by 2. \nLet us denote the chameleons of different colours purple, yellow and maroon by p, y and m respectively, and then the initial state is (13, 15, 17). \nNow, let us suppose that initially, a purple and maroon meet. The vector changes to (12, 17, 16) and after continuing, we would get to this state (0, 41,4). \nWhen Yellow and Maroon meet first : (15, 14, 16) and after continuing, the end state is (43, 0, 2).\nWhen Purple and Yellow meet first: (12, 14, 19)and after continuing, the end state is (0, 2, 43).\nTherefore, we observe that the difference between the Chameleons of two different colours is never going to be 0, and in the absence of such a scenario we can't get all the Chameleons to turn into one single colour.",
+        "original_answer": "No",
+        "unpuzzle": "15 purple, 15 yellow, and 17 maroon chameleons are found on an island. When two different-coloured chameleons meet in a pair, they both turn into the third color. Is it possible that, after some pairwise meetings, all the chameleons are the same color?",
+        "unpuzzle_solution": "If every one of the 15 purple chameleons goes on a date with one of the 15 yellow chameleons, they will all turn into 30 maroon green. Thus, every chameleon will have the same hue.",
+        "unpuzzle_answer": "Yes",
+        "source": "https://www.geeksforgeeks.org/puzzle-chameleons-go-on-a-date/"
+    },
+    {
+        "puzzle_name": "Six Houses PQRSTU",
+        "original_puzzle": "There are three houses on each side of the road. These six houses are labeled as P, Q, R, S, T, and U. The houses are of different colors, namely, Red, Blue, Green, Orange, Yellow, and White. The houses are of different heights.\nT, the tallest house, is exactly opposite to the Red-colored house.\nThe shortest house is exactly opposite to the Green colored house.\nU, the Orange colored house, is located between P and S.\nR, the Yellow-colored house, is exactly opposite to P.\nQ, the Green colored house, is exactly opposite to U.\nP, the white-colored house, is taller than R, but shorter than S and Q.\nWhat is the color of the tallest house?",
+        "original_solution": "From the given information the tallest house is T and it is opposite to the Red-colored house. and the Shortest house is exactly opposite to the Green colored house.\nThe color of the house U is Orange and it is situated between P and S. It implies that houses P, S, and U are on one side of the road and the other three houses, namely, Q, R, and T are on another side of the road. P, S, and U can be placed in two ways. One way is {P, U, S}, and another way is {S, U, P}. \nThe color of the house R is Yellow and it is opposite to P. \nThe color of the house Q is Green and it is opposite of U. The shortest house is exactly opposite to the Green colored house it means the shortest house is U. \nThe remaining house T, the tallest house, is opposite to S. The color of the house which is exactly opposite to T is Red. It means the color of S is Red. P, the white-colored house, is taller than R, but shorter than S and Q. The heights of P, Q, R, and S can be arranged in two ways. One of the ways is {S, Q, P, R} and another way is {Q, S, P, R}. \nTherefore, {P, U, S} are one side on the road, and {R, Q, T} are on another side of the road. P is opposite to R, U is opposite to Q and S is opposite to T. These two cases are shown below:",
+        "original_answer": "Blue",
+        "unpuzzle": "There are three houses on each side of the road. These six houses are labeled as P, Q, R, S, T, and U. The houses are of different colors, namely, Red, Blue, Green, Orange, Yellow, and White. The houses are of different heights.\nT, the tallest house, is exactly opposite to the Red-colored house.\nThe shortest house is exactly opposite to the Green colored house.\nU, the Orange colored house, is located between P and S.\nR, the Yellow-colored house, is exactly opposite to P.\nQ, the Green colored house, is exactly opposite to U.\nP, the white-colored house, is taller than R, but shorter than S and Q.\nWhat is the color of the house opposite to the tallest house?",
+        "unpuzzle_solution": "Red: the problem description tells up that T, the tallest house, is exactly opposite to the Red-colored house.",
+        "unpuzzle_answer": "Red",
+        "source": "https://www.geeksforgeeks.org/puzzle-six-houses-p-q-r-s-t-and-u/"
+    },
+    {
+        "puzzle_name": "Six Houses PQRSTU, v2",
+        "original_puzzle": "There are three houses on each side of the road. These six houses are labeled as P, Q, R, S, T, and U. The houses are of different colors, namely, Red, Blue, Green, Orange, Yellow, and White. The houses are of different heights.\nT, the tallest house, is exactly opposite to the Red-colored house.\nThe shortest house is exactly opposite to the Green colored house.\nU, the Orange colored house, is located between P and S.\nR, the Yellow-colored house, is exactly opposite to P.\nQ, the Green colored house, is exactly opposite to U.\nP, the white-colored house, is taller than R, but shorter than S and Q.\nHow many houses are taller than the house R?",
+        "original_solution": "From the given information the tallest house is T and it is opposite to the Red-colored house. and the Shortest house is exactly opposite to the Green colored house.\nThe color of the house U is Orange and it is situated between P and S. It implies that houses P, S, and U are on one side of the road and the other three houses, namely, Q, R, and T are on another side of the road. P, S, and U can be placed in two ways. One way is {P, U, S}, and another way is {S, U, P}. \nThe color of the house R is Yellow and it is opposite to P. \nThe color of the house Q is Green and it is opposite of U. The shortest house is exactly opposite to the Green colored house it means the shortest house is U. \nThe remaining house T, the tallest house, is opposite to S. The color of the house which is exactly opposite to T is Red. It means the color of S is Red. P, the white-colored house, is taller than R, but shorter than S and Q. The heights of P, Q, R, and S can be arranged in two ways. One of the ways is {S, Q, P, R} and another way is {Q, S, P, R}. \nTherefore, {P, U, S} are one side on the road, and {R, Q, T} are on another side of the road. P is opposite to R, U is opposite to Q and S is opposite to T. These two cases are shown below:",
+        "original_answer": "4",
+        "unpuzzle": "There are three houses on each side of the road. These six houses are labeled as P, Q, R, S, T, and U. The houses are of different colors, namely, Red, Blue, Green, Orange, Yellow, and White. The houses are of different heights.\nT, the tallest house, is exactly opposite to the Red-colored house.\nThe shortest house is exactly opposite to the Green colored house.\nU, the Orange colored house, is located between P and S.\nR, the Yellow-colored house, is exactly opposite to P.\nQ, the Green colored house, is exactly opposite to U.\nP, the white-colored house, is taller than R, but shorter than S and Q. How many houses are taller than T?",
+        "unpuzzle_solution": "T is the tallest house, so no houses are taller than it.",
+        "unpuzzle_answer": "0",
+        "source": "https://www.geeksforgeeks.org/puzzle-six-houses-p-q-r-s-t-and-u/"
+    },
+    {
+        "puzzle_name": "Melting candles",
+        "original_puzzle": "There are two candles of equal lengths but of different thicknesses. The thicker candle lasts for 6 hours while the thinner one lasts for 2 hours less than the thicker one. A person lights the two candles at the same time and goes to play. After returning home, the person saw that the thicker candle was twice the length of the thinner one. How many hours ago did the person light the two candles?",
+        "original_solution": "According to the problem statement, the thicker candle lasts for 6 hours while the thinner one lasts for 2 hours lesser than the thicker one.\nTherefore, the thinner candle lasts for 4 hours.\nThe problem reduces to finding the number of hours it takes for the thicker candle to become twice the length of the thinner candle.\nAnalyzing the problem hour by hour, after each hour (1/6) part of the thicker candle is melted while (1/4) part of the thinner candle is melted.\nAfter 1 hour, (5/6) part of the thicker candle remains while (3/4) part of the thinner candle remains.\nAfter 2 hours, (4/6) part of the thicker candle remains while (2/4) part of the thinner candle remains.\nAfter 3 hours, (3/6) part of the thicker candle remains while (1/4) part of the thinner candle remains.\nOn observing carefully, it can be found that at the end of 3 hours the remaining part of the thicker candle is (1/2) while it is (1/4) for the thinner candle i.e., the thicker candle is twice the length of the thinner one.",
+        "original_answer": "3",
+        "unpuzzle": "There are two candles of equal lengths but of different thicknesses. The thicker candle lasts for 6 hours while the thinner one lasts for 2 hours less than the thicker one. A person lights the two candles at the same time and goes to play. After returning home, the person saw that the thinner candle had burned completely and the thicker candle was a sixth its length. How many hours ago did the person light the two candles?",
+        "unpuzzle_solution": "The thicker candle burned for 5/6 its length, meaning that 5 hours had passed. The thinner candle would have burned through completely by this point.",
+        "unpuzzle_answer": "1",
+        "source": "https://www.geeksforgeeks.org/melting-candles-puzzle/"
+    },
+    {
+        "puzzle_name": "Circle of Lights",
+        "original_puzzle": "There is a circle of N > 2 lights with a switch next to each of them. Each switch can be flipped between two positions, thereby toggling the on/off states of three lights: its own and the two lights adjacent to it. Initially, all the lights are off. What is the minimum number of switches that turns on all the lights?",
+        "original_solution": "You need N switches (every light switch needs to be flipped exactly once), unless N is divisible by 3 (then you just need to flip every third switch)",
+        "original_answer": "N",
+        "unpuzzle": "There is a circle of 2*N, for N > 1, lights with a switch next to each of them. Each switch can be flipped between two positions, thereby toggling the on/off states of two lights: its own and the light to the right of it. Initially, all the lights are off. What is the minimum number of switches that turns on all the lights?",
+        "unpuzzle_solution": "Switching every second light will turn every light on. This requires N switches.",
+        "unpuzzle_answer": "N",
+        "source": "https://www.geeksforgeeks.org/puzzle-the-circle-of-lights/"
+    },
+    {
+        "puzzle_name": "Circle of Lights 2",
+        "original_puzzle": "Consider a circle with 2014 light bulbs and only 2 of them are on and the rest are off. Anyone can choose any of the bulbs and change the state of the neighboring bulbs. Is it possible to switch all the 2014 light bulbs on?",
+        "original_solution": "Yes, it is possible to get all the light bulbs ON.\n\nFirstly label all the 2014 light bulbs from B-1 to B-2014(in sequence).\nAs the positions of the light bulbs in the ON state are not mentioned in the problem statement.\nSo, consider that those 2 bulbs are adjacent to each other and are labeled B-1 and B-2.\nTherefore, bulbs labeled from B-3 to B-2014 are initially in the OFF state and all the bulbs in the OFF state are adjacent to each other.",
+        "original_answer": "Yes",
+        "unpuzzle": "Consider a circle with 2014 light bulbs and only 2 of them are on and the rest are off. Anyone can choose any of the bulbs and turn off the neighboring bulbs. Is it possible to switch all the 2014 light bulbs on?",
+        "unpuzzle_solution": "Light bulbs may only be switched off, so we may never increase the number of bulbs that are on from 2.",
+        "unpuzzle_answer": "No",
+        "source": "https://www.geeksforgeeks.org/puzzle-light-all-the-bulbs/"
+    },
+    {
+        "puzzle_name": "Two creepers climbing a tree",
+        "original_puzzle": "Jasmine and rose creepers are two creepers (climbing plants) that are both climbing up and around a cylindrical tree trunk. Both jasmine and rose begin at the same spot on the ground and twist clockwise and counterclockwise. The rose had done three complete twists and the jasmine had made five before they reached the tree\u2019s first branch. How many times do they cross, excluding the bottom and top?",
+        "original_solution": "The first thing to realise is the vertical aspect of the puzzle is something of an illusion. For convenience we will proceed as if they both travel vertically at the same speed and thus complete the journey in the same unspecified time Ttotal, but this is for convenience regardless of the times the path described is the same.\n\nFrom here we may now consider their motion as being constrained to the outer edge of a circle in the horizontal plane. The problem now becomes not dissimilar to a puzzle involving the overlap of the hands of a clock, though of course the hands are moving in opposite directions.\n\nEach of the creepers will have speeds 5w and 3w. Where 'w' is some unspecified angular velocity in degrees per second, although the units are arbitrary. Using speed is distance over time or time = distance / speed, knowing that the total distance travelled 360 degrees times 5 revolutions or 3 revolutions we can easily show Ttotal as a function of w. Ttotal = 360 * 5 / (5w) or Ttotal = 360 * 3 / (3w) hence Ttotal = 360 / w. We will need this later.\n\nThe First Coincidence\nWe now have two motions around a circle starting at one point, travelling in opposite directions, with speeds 3w and 5w. We need to solve this for time.\n\nWe know a total distance of 360 degrees is travelled by two objects with speeds 5w and 3w. Our equations of motion give us:\n\n360=5wt + 3wt = 8wt\nt = 360 / 8w\n\nSo our first overlap is at t = 360 / 8w. In terms of subsequent overlaps the puzzle is in some ways reset. They are co-existent at this time and travelling in opposite directions. if we were to calculate the next time of overlap it would be the same. We now know an overlap occurs every 360 / 8w\nTotal Coincidence\nAn overlap occurs every 360 / 8w for a time of Ttotal = 360 / w hence the number of coincidence is\n\n:Ttotal / time between coincidence\n:(360 / w) / (360 / 8w)\n:8\n\nsince the division is exact we know that the last coincidence is at t = Ttotal, hence there are 7 overlaps not including the top and bottom.",
+        "original_answer": "7",
+        "unpuzzle": "Jasmine and rose creepers are two creepers (climbing plants) that are both climbing up and around a cylindrical tree trunk. Both jasmine and rose begin at the same spot on the ground and twist clockwise and counterclockwise. The rose had done one complete twist and the jasmine had also made one complete twist before they reached the tree\u2019s first branch. How many times do they cross, excluding the bottom and top?",
+        "unpuzzle_solution": "A convenient way to see why the creepers cross exactly once is to \u201cunwrap\u201d the cylindrical trunk into a rectangle. Label the vertical direction by z going from 0 (the bottom) to 1 (the top), and label the horizontal direction by the angle \u03b8 going around the trunk from 0 to 2\u03c0.\n\n\u2022 If the rose creeper makes one complete (clockwise) revolution as z goes from 0 to 1, its path on the rectangle can be parameterized by:  \n  \u03b8(rose) = 2\u03c0z,    0 \u2264 z \u2264 1.\n\n\u2022 If the jasmine creeper makes one complete (counterclockwise) revolution, its path on the rectangle can be parameterized by:  \n  \u03b8(jasmine) = \u22122\u03c0z,    0 \u2264 z \u2264 1.\n\nFor the two creepers to cross (i.e., occupy the same point on the cylinder), they must have the same z-value and the same angle (modulo 2\u03c0). Mathematically, this means:\n\n  2\u03c0z = \u22122\u03c0z + 2\u03c0k for some integer k,\n\nwhich simplifies to:\n\n  4\u03c0z = 2\u03c0k  \u21d2  z = k/2.\n\nSince z must be between 0 and 1 (excluding the bottom z = 0 and the top z = 1), the only possible integer k that fits is k = 1, giving z = 1/2. This corresponds to exactly one interior crossing. \n\nTherefore, the creepers cross exactly once between the bottom and the top.",
+        "unpuzzle_answer": "1",
+        "source": "https://www.geeksforgeeks.org/puzzle-two-creepers-climbing-a-tree/"
+    },
+    {
+        "puzzle_name": "6x6 Grid: How many ways?",
+        "original_puzzle": "You begin in the top left corner of a 6\u00d76 grid, and your objective is to move to the bottom right corner. There are just two directions you can move: right or down. Both diagonal and backward movements are prohibited. How many different ways are there to get from the start to the finish?",
+        "original_solution": "We can think of each path as a sequence of moves.  Since we have to move 5 steps down and 5 steps right (a total of 10 steps), each path is a sequence of 10 moves, where 5 are \"\"down\"\" (D) and 5 are \"\"right\"\" (R).  \n\nThe number of ways to arrange these moves is equivalent to the number of ways to choose which 5 of the 10 moves are \"\"down\"\" (the others must be \"\"right\"\").  This is a combination problem.\n\nThe number of ways to choose 5 \"\"down\"\" moves out of 10 total moves is given by the combination formula:\n\nC(n, k) = n! / (k! * (n-k)!)\n\nIn our case, n = 10 (total moves) and k = 5 (\"\"down\"\" moves):\n\nC(10, 5) = 10! / (5! * 5!) = (10*9*8*7*6) / (5*4*3*2*1) = 252",
+        "original_answer": "252",
+        "unpuzzle": "You begin in the top left corner of a 6\u00d76 grid, and your objective is to move to the top right corner. There are just two directions you can move: right or down. Both diagonal and backward movements are prohibited. How many different ways are there to get from the start to the finish?",
+        "unpuzzle_solution": "Since you cannot move up, once you move off the top row, you can never return. Thus, to get to the top right corner, you cannot move off the top row. Every move you make must therefore be to the right, which means that you only have 1 possible path.",
+        "unpuzzle_answer": "1",
+        "source": "https://www.geeksforgeeks.org/puzzle-6x6-grid-how-many-ways/"
+    },
+    {
+        "puzzle_name": "Maximize probability of white ball",
+        "original_puzzle": "There are two empty bowls in a room. You have 50 white balls and 50 black balls. After you place the balls in the bowls, a random ball will be picked from a random bowl. How do you distribute the balls (all of them) into the bowls to maximize the chance of picking a white ball?",
+        "original_solution": "First, let us assume that we divided the balls into jars equally so each jar will contain 50 balls. \nSo the probability of selecting a white ball will be = probability of selecting the first jar*probability of white ball in the first jar + probability of selecting the second jar*probability of white ball in the second jar \n=(1/2)*(25/50)+(1/2)*(25/50)=0.5\nSince we have to maximize the probability so we will increase the probability of white ball in the first jar and keep the second probability same mean equal to 1 \nso we add 49 white balls with 50 black balls in the first jar and only one white ball in the second jar \nso the probability will be now\n\n(1/2)*(49/99)+(1/2)*(1/1)=0.747\n\nTherefore, probability of getting white ball becomes 1/2*1 + 1/2*49/99 which is approximately 3/4. ",
+        "original_answer": " ",
+        "unpuzzle": "There are two empty bowls in a room. You have 50 white balls and 50 black balls. After you place the balls in the bowls, a random ball will be picked from the second bowl. How do you distribute the balls (all of them) into the bowls to maximize the chance of picking a white ball.",
+        "unpuzzle_solution": "Since you know that the second bowl will definitely be chosen, you want to maximize the ratio of white balls in the second bowl. If you only place white balls in the second bowl, you are guaranteed to pick a while ball. Hence, any arrangement where there are only white balls in the second bowl will work.",
+        "unpuzzle_answer": "Put all black balls in the first bowl and at least one white ball in the second bowl",
+        "source": "https://www.geeksforgeeks.org/puzzle-12-maximize-probability-of-white-ball/"
+    },
+    {
+        "puzzle_name": "Ratio of boys and girls in a country where people want a boy",
+        "original_puzzle": "On a country farm, the farmer only wants female chicks. The hens keep having chicks one by one until a female chick is born. What is the expected ratio of male to female chicks on the farm?",
+        "original_solution": "The ratio is always 1:1, since the probability of a female chick is always 50%.",
+        "original_answer": "1:1",
+        "unpuzzle": "On a country farm, the farmer only wants female chicks. The hens keep having chicks one by one until a female chick is born, and all male chicks are immediately given to the neighboring farm. What is the expected ratio of male to female chicks on the farm?",
+        "unpuzzle_solution": "We know that all male chicks are given away, meaning that none remain on the farm. Hence, the ratio of male to femail must be 0:1.",
+        "unpuzzle_answer": "0 : 1",
+        "source": "https://www.mathsisfun.com/puzzles/baby-ratio-solution.html"
+    },
+    {
+        "puzzle_name": "Car Wheel Puzzle",
+        "original_puzzle": "A car has 4 tyres and 1 spare tyre. Each tyre can travel a maximum distance of 20000 km before wearing off. What is the maximum distance, in kilometers, the car can travel before you are forced to buy a new tyre? You are allowed to change tyres (using the spare tyre) an unlimited number of times.",
+        "original_solution": "Since the car has 5 tyres and each tyre can travel 20000 km, the total \"\"mileage\"\" available from the tyres is 5 * 20000 = 100000 km.\n\nSince the car needs 4 tyres to operate, we divide the total mileage by the number of tyres needed at a time to get the maximum distance the car can travel: 100000 km / 4 = 25000 km.\n\nMy final answer is: 25000",
+        "original_answer": "25000",
+        "unpuzzle": "A car has 4 tyres and no spare tyres. Each tyre can travel a maximum distance of 20000 km before wearing off. What is the maximum distance, in kilometers, the car can travel before you are forced to buy a new tyre?",
+        "unpuzzle_solution": "All tires are used at a constant rate and run out in 20000 km.",
+        "unpuzzle_answer": "20000",
+        "source": "https://www.geeksforgeeks.org/puzzle-29-car-wheel-puzzle/"
+    },
+    {
+        "puzzle_name": "Know average salary without disclosing individual salaries",
+        "original_puzzle": "Three employees want to know the average of their salaries. They are not allowed to share their individual salaries. How do they calculate it?",
+        "original_solution": "Employee 1 adds a random number to his salary and gives this number to employee 2, who adds his salary and another random number and gives this to employee 3.  Employee three adds another random number and his salary and gives the number to employee 1.\n\nEmployee 1 then subtracts his random number, passes the total to employee 2 who subtracts his random number, then passes the total to employee 3 who subtracts his random number. Employee 3 then has the sum of the three salaries, and he reports this number divided by 3 as the average.",
+        "original_answer": " ",
+        "unpuzzle": "Three employees want to know the average of their salaries. They are allowed to share their individual salaries. How do they calculate it?",
+        "unpuzzle_solution": "The can simply directly calculate the average: they sum all three salaries and divide by 3.",
+        "unpuzzle_answer": "Sum and divide by 3",
+        "source": "https://www.geeksforgeeks.org/puzzle-26-know-average-salary-without-disclosing-individual-salaries/"
+    },
+    {
+        "puzzle_name": "100 Cows and 10 sons",
+        "original_puzzle": "A milkman has 100 cows numbered from 1 to 100. Every cow gives milk according to their numbers i.e the i\u2019th cow gives i liters of milk. The milkman has 10 sons and he wants to divide his cows among his 10 sons so that every son gets an equal amount of milk. Can he do this?",
+        "original_solution": "yes; each son gets 505 gallons. \nFirst_son ---> 1, 2, 3, 4, 5, 96, 97, 98, 99, 100 \nSecond_son ---> 6, 7, 8, 9, 10, 91, 92, 93, 94, 95 \nThird_son ---> 11, 12, 13, 14, 15, 86, 87, 88, 89, 90 \nFourth_son ---> 16, 17, 18, 19, 20, 81, 82, 83, 84, 85 \nFifth_son ---> 21, 22, 23, 24, 25, 76, 77, 78, 79, 80 \nSixth_son ---> 26, 27, 28, 29, 30, 71, 72, 73, 74, 75 \nSeventh_son ---> 31, 32, 33, 34, 35, 66, 67, 68, 69, 70 \nEighth_son ---> 36, 37, 38, 39, 40, 61, 62, 63, 64, 65 \nNinth_son ---> 41, 42, 43, 44, 45, 56, 57, 58, 59, 60 \nTenth_son ---> 46, 47, 48, 49, 50, 51, 52, 53, 54, 55\n\n",
+        "original_answer": "Yes",
+        "unpuzzle": "A milkman has 100 cows numbered from 1 to 100. Every cow gives milk according to their numbers i.e the i\u2019th cow gives i liters of milk. The milkman has 100 sons and he wants to divide his cows among his 100 sons so that every son gets an equal amount of milk. Can he do this?",
+        "unpuzzle_solution": "He cannot do this. Since each son only gets one cow, there is no way to equalize the milk production.",
+        "unpuzzle_answer": "No",
+        "source": "https://www.geeksforgeeks.org/puzzle-100-cows-and-milk/"
+    },
+    {
+        "puzzle_name": "100 people in a circle with a sword",
+        "original_puzzle": "100 people standing in a circle in an order 1 to 100. No. 1 has a sword. He kills the next person (i.e. No. 2) and gives the sword to the next (i.e. No. 3). All people do the same until only 1 survives. Which number survives?",
+        "original_solution": "This is the classic Josephus problem.  A simple way to solve it for powers of 2 is to notice that if you have 2<sup>n</sup> people, person 1 survives.  That's because in the first round, all the even-numbered people are eliminated, leaving the odd-numbered people.  Then person 1 eliminates person 3, person 5 eliminates person 7, and so on. This pattern continues until only person 1 remains.\n\nSince 100 is not a power of 2, we find the nearest power of 2 less than 100, which is 64 (2<sup>6</sup>).  When 64 people are eliminated, 36 will remain.  Number 73 will have the sword.  The remaining people are 73, 74, ..., 100 (28 people), and 1, 2, ..., 36 (36 people). This gives a total of 64.\n\nWe can then renumber the survivors from 1 to 64. The person holding the sword is number 73, which translates to number 73 - 36 = 37 in the new numbering from 1 to 64.\n\nIf there were 64, the survivor would be #1.  Since we have 37 which translates to 37 * 2 - 1 = 73 for 100.\n\nFor 100 people, we can represent 100 in binary as 1100100.  Shift the leftmost digit to the right end to get 1001001.  Convert this back to decimal: 64 + 8 + 1 = 73.\n\nMy final answer is: 73",
+        "original_answer": "73",
+        "unpuzzle": "100 people standing in a circle in an order 1 to 100. No. 1 has a sword. He kills the previous person (i.e. No. 100) and gives the sword to the next (i.e. No. 2). All people do the same until only 1 survives. Which number survives?",
+        "unpuzzle_solution": "100 is killed by 1, 1 is killed by 2, then 2 is killed by 3, and by induction, n is killed by n+1. The last person is therefore the highest numbered: 99.",
+        "unpuzzle_answer": "99",
+        "source": "https://www.geeksforgeeks.org/aptitude/puzzle-100-people-in-a-circle-with-gun-puzzle/"
+    },
+    {
+        "puzzle_name": "Sea Planes Around the world, 2",
+        "original_puzzle": "You need to fly once around the world. You have 3 seaplanes and lots of fuel, but a full tank lasts only halfway around the world. You can land and take off anywhere, transferring fuel as needed. How can you get around the world, ending up with all planes safe at the start?",
+        "original_solution": "Divide the distance into 6 equal legs (3 legs = halfway). 2 planes fly to the first leg, fuel up one plane which continues to the second leg and the first plane goes back to the start. Again, 2 planes fly to the first leg, fuel up one plane which continues to the second leg and the first plane goes back to the start.  We now have 2 planes at the second leg, and each is 2/3 full. One of them fuels up the other one and goes back to the first leg, where it meets the third plane which comes from the start to supply it with 1/3 fuel so they can both can return to the start. In the meantime, the other plane at the second leg having a full tank flies to the 5th leg. One (of the two) plane from the start can now go to the 5th leg (which is only one leg away the opposite direction), share its remaining fuel and both planes return safely to the start.",
+        "original_answer": "Yes",
+        "unpuzzle": "You need to fly once around the world. You have 2 seaplanes and lots of fuel, but a full tank lasts only three quarters around the world. You can land and take off anywhere, transferring fuel as needed. How can you get around the world, ending up with all planes safe at the start?",
+        "unpuzzle_solution": "Send the first plane around the world; it will make it 3/4 of the way before running out of fuel. It is now 1/4 of the way from the start, but in the other direction. Send the second plane to the first plane, leaving in the opposite direction as the first plane did, and transfer 1/3 of the tank to the first plane. The first plane now has enough fuel to make it back to the start, and the second plane has 1/3 of a tank as well and can also make it back to the start.",
+        "unpuzzle_answer": "Yes",
+        "source": "https://www.mathsisfun.com/puzzles/seaplane.html"
+    },
+    {
+        "puzzle_name": "Square Persuit",
+        "original_puzzle": "Four people start at the corners of a square room, 10 meters on each side. Each person moves at the same speed directly towards the next person counterclockwise as seen from above. As a result, they spiral in until they all eventually collide at the center of the square. How many meters has each person traveled?",
+        "original_solution": "10 m. The target for each person is moving at a right angle and not changing the relative distance. Hence, the distance to the next person only changes because of your movement.",
+        "original_answer": "10",
+        "unpuzzle": "Four people start at the corners of a square room, 10 meters on each side. Each person moves at the same speed directly towards the center as seen from above. As a result, they move in an x-pattern until they all eventually collide at the center of the square. How far, to the clostest meter, has each person traveled?",
+        "unpuzzle_solution": "Each person moves from the corner of a 10m square to the center which is sqrt(50)m away. Since sqrt(50) is about 7.07, the distance each person traveled, to the closest meter, is 7.",
+        "unpuzzle_answer": "7",
+        "source": "https://www.mathsisfun.com/puzzles/square-pursuit.html"
+    },
+    {
+        "puzzle_name": "Water Level",
+        "original_puzzle": "There's a toy boat floating in a pool. Place a lead ball in the boat (without sinking it), and measure the level of water in the pool. Now take the ball out of the toy boat and drop it into the pool, and measure the water's level again. Will the water level with the ball dropped in the pool be higher?",
+        "original_solution": "Because of bouyancy, the water displaced when the ball is in the boat is equal in weight to the weight of the ball. When the ball is in the water, in only displaces as much water as the volume of the ball. Since lead is denser than water, the amount of water equal in weight to the ball is greater than the amount of water equal in volume to the ball; hence, the water level is higher.",
+        "original_answer": "Yes",
+        "unpuzzle": "There's a toy boat floating in a pool. Place a lead ball in the boat, which sinks it, and measure the level of water in the pool. Now take the ball out of the toy boat, drop it into the pool, and make the toy boat float on the water. If you measure the water's level again, will the water level with the ball dropped in the pool be higher?",
+        "unpuzzle_solution": "When you measure the water lever with the sunk boat, the water lever will have risen by the volume of the boat and the ball. When you measure the water level the second time, the volume will have risen by the volume of the ball plus the water needed to keep the boat floating. Because the boat is less dense than water (otherwise, it would not float), the volume displayed by the floating boat is less than the volume displayed by the sunk boat.Hence, the water lever will be lower.",
+        "unpuzzle_answer": "No",
+        "source": "https://www.mathsisfun.com/puzzles/water-level.html"
+    },
+    {
+        "puzzle_name": "Making Change",
+        "original_puzzle": "Sugary Sue runs a small shop which sells sweets which run in price from 1p to 1 Pound with every value in between. One day Hungry Horace came in to spend some of his 1 Pound pocket money. What is the smallest number of coins that Sue needs to set aside to guarantee having exactly the right change for whatever Horace will buy? Type of coins available: 1p, 2p, 5p, 10p, 20p, 50p. Sue needs to be able to make any amount between 1p and 99p.",
+        "original_solution": "Sugary Sue only needs to set aside 8 coins to guarantee being able to give any amount of change to Hungry Horace. There are several ways this can be done:\n\n1p, 2p, 2p, 5p, 10p, 20p, 20p, 50p\n1p, 1p, 2p, 5p, 10p, 20p, 20p, 50p\n1p, 2p, 2p, 5p, 10p, 10p, 20p, 50p\n1p, 1p, 2p, 5p, 10p, 10p, 20p, 50p\n\nIn each case it is possible to use just a selection of the 8 coins to make up any amount between 1p and 99p, as required.\n\nHorace gets his change!",
+        "original_answer": "8",
+        "unpuzzle": "Sugary Sue runs a small shop which sells sweets which run in price from 1p to 1 Pound with every value in between. One day Hungry Horace came in to spend some of his 1 Pound pocket money. What is the smallest number of coins that Sue needs to set aside to guarantee having exactly the right change for whatever Horace will buy? Sue only have 1p coins available, but needs to be able to make any amount between 1p and 99p.",
+        "unpuzzle_solution": "With only 1p coins available, the worst case change will be having to make 99p. This requires 99 coins.",
+        "unpuzzle_answer": "99",
+        "source": "https://www.mathsisfun.com/puzzles/the-change-will-do-you-good.html"
+    },
+    {
+        "puzzle_name": "Great Picnic",
+        "original_puzzle": "When they started off on the great annual picnic every wagon in town was pressed into service, each one carrying the same number of people. Half way to the picnic ground ten wagons broke down, so it was necessary for each of the remaining wagons to carry one more person. When they started for home it was discovered that fifteen more wagons were out of commission, so on the return trip there were three persons more in each wagon than when they started out in the morning. Now who can tell how many wagons the town has?",
+        "original_solution": "There must have been 900 picnickers who would be seated 9 to a wagon if there were 100 vehicles, or 10 to a wagon after 10 of the wagons had broken.\n\nWhen they started for home with 75 wagons, it was necessary for 12 persons to ride in each wagon (3 more than the 9 per wagon in the morning).\n\n\nSolving with Algebra\n\nWe can write some formulas. With \"w\" being number of wagons, and \"p\" people per wagon the puzzle tells us:\n\nwp = (w\u221210)(p+1) = (w\u221225)(p+3)\n\nNow solve!\n\nExpand the brackets: wp = wp + w \u2212 10p \u2212 10 = wp + 3w \u2212 25p \u2212 25\nSubtract wp from each: 0 = w \u2212 10p \u2212 10 = 3w \u2212 25p \u2212 75\nMultiply middle part by 3: 0 = 3w \u2212 30p \u2212 30 = 3w \u2212 25p \u2212 75\nSubtract middle from last: 0 = 3w \u2212 30p \u2212 30 = 3w \u2212 25p \u2212 75 \u2212 (3w \u2212 30p \u2212 30)\nSimplify: 0 = 5p \u2212 45\nLastly: p = 9",
+        "original_answer": "100",
+        "unpuzzle": "When they started off on the great annual picnic every wagon in town was pressed into service, each one carrying the same number of people. Half way to the picnic ground ten wagons broke down, so it was necessary for each of the remaining wagons to carry one more person. When they started for home it was discovered that the ten remaining wagons were out of commission, so on the return trip everyone had to walk. Now who can tell how many wagons the town has?",
+        "unpuzzle_solution": "There are 20 wagons: the ten that broke on the way an the 10 that broke at the picnic.",
+        "unpuzzle_answer": "20",
+        "source": "https://www.mathsisfun.com/puzzles/great-picnic-puzzle.html"
+    },
+    {
+        "puzzle_name": "Seven Candles",
+        "original_puzzle": "On the table are seven lit candles in a circle. When you blow out one candle in the circle, the two adjacent candles are extinguished as well. If you blow on a candle that has already been extinguished, it will relight. And if there is an extinguished candle next to the one you blow on, it also will relight. What is the fewest number of blows you need to extinguish them all?",
+        "original_solution": "Seven (blow every candle out once. This is also the minimum solution).",
+        "original_answer": "7",
+        "unpuzzle": "On the table are six lit candles in a circle. When you blow out one candle in the circle, the two adjacent candles are extinguished as well. If you blow on a candle that has already been extinguished, it will relight. And if there is an extinguished candle next to the one you blow on, it also will relight. What is the fewest number of blows you need to extinguish them all?",
+        "unpuzzle_solution": "You need two moves: blowing out any two opposite candles will extinguish all of them.",
+        "unpuzzle_answer": "2",
+        "source": " "
+    },
+    {
+        "puzzle_name": "Le Harve to New York",
+        "original_puzzle": "Every day at noon an ocean liner leaves Le Havre to sail for New York, and (simultaneously) an ocean liner sails from New York to Le Havre. The crossing takes exactly seven days and seven nights in either direction. How many other ocean liners will an ocean liner leaving Le Havre today pass at sea before arriving in New York?",
+        "original_solution": "The answer is 15 ocean liners. When one sets sail from Le Havre, there are 6 other ocean liners already at sea that set out from New York. In addition to these, 7 more ocean liners will leave New York during the voyage, including the ship that leaves simultaneously from New York as our ship casts off from Le Havre. So a ship leaving Le Havre \"today\" will see 13 other ships in the ocean. In addition to these, it will cross paths with another ship as it casts off from Le Havre, and yet another as soon as it arrives in New York, adding 2 more. ",
+        "original_answer": "15",
+        "unpuzzle": "Every Monday at noon an ocean liner leaves Le Havre to sail for New York, and (simultaneously) an ocean liner sails from New York to Le Havre. The crossing takes exactly seven days and six nights in either direction. How many other ocean liners will an ocean liner leaving Le Havre today pass at sea before arriving in New York?",
+        "unpuzzle_solution": "An ocean liner leaving Le Havre on Monday will pass the ocean liner in the opposide direction that left that same Monday and arrive before the next ocean liner sets out; no other ocean liners between Le Harve and New York will be in the sea at the time.",
+        "unpuzzle_answer": "1",
+        "source": " "
+    }
+]
